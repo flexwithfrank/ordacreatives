@@ -23,7 +23,7 @@ export default function App() {
 
       <h1 class="text-7xl">Enhance your customer experience with Orda Creatives©</h1>
         <Box sx={{width: 600, textAlign: 'center'}}>
-        <p>Expertly crafted marketing assets created for growth, customer loyalty, and audience engagement</p>
+        <p>Expertly crafted marketing assets created for growth, customer loyalty, and audience engagement!</p>
         </Box>
 
         <ButtonOne />
