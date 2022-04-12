@@ -2,7 +2,6 @@ import * as React from 'react';
 import './App.css';
 import './styles/output.css'; 
 import Box from "@mui/material/Box";
-
 import LyfModal from './LyfModal';
 import RueModal from './rueModal';
 import Studio3 from './studio3';
