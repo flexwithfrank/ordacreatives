@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'react-responsive-modal/styles.css';
+import './App.css';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 
 ReactDOM.render(
   <React.StrictMode>

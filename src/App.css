@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
+  background-color: #101827;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  color: white;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* grid css */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 5rem;
+  margin-top: 2rem;
+  justify-items: center;
+  align-items: center;
+  
+}
+.rueContainerModal {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 15px;
+
+}
+.item{
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+/* fonts */
+
+@font-face {
+  font-family: "product";
+  src: url("/fonts/Product Sans Bold.ttf") format("truetype");
+  src: url("/fonts/product_sans_bold-webfont.woff") format("woff");
+  src: url("/fonts/product_sans_bold-webfont.woff2") format("woff2");
 }
+
+@font-face {
+  font-family: "visage";
+  src: url("/fonts/Visage Bold.otf") format("opentype");
+  src: url("/fonts/Visage Bold.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "cleon";
+  src: url("/fonts/Cleon.otf") format("opentype");
+  src: url("/fonts/cleon-webfont.woff") format("woff");
+  src: url("/fonts/cleon-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "vaulto";
+  src: url("/fonts/Vaulto-ExtraBold.otf") format("opentype");
+  src: url("/fonts/Vaulto-ExtraBold.woff2") format("woff2");
+}
+
+h1{
+  font-family: "vaulto";
+  padding-bottom: 1rem;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+h2{
+  font-family: "visage";
+  letter-spacing: 1rem;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+}
+
