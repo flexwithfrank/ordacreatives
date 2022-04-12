@@ -1,8 +1,8 @@
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
-import frankieAvatar from '../src/images/avatar-1.png'
-import AvatarOne from '../src/images/avatar-1.png';
+import frankieAvatar from '../src/avatar-1.png'
+import AvatarOne from '../src/avatar-1.png';
 import AvatarTwo from '../src/images/avatar-2.png';
 import AvatarThree from '../src/images/avatar-3.png';
 import AvatarFour from '../src/images/avatar-4.png';
