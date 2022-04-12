@@ -12,8 +12,7 @@ import GridThree from "./GridThree";
 import Icon from '@mui/material/Icon';
 import Stack from '@mui/material/Stack';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import MyPopover from './Popover'
-import MyDisclosure from "./Disclosure";
+
 
 
 export default function App() {
