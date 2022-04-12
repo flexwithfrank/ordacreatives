@@ -2,47 +2,23 @@
 import * as React from 'react';
 import './App.css';
 import frankieAvatar from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/oink.png';
-import BlendedDevice from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/iPhoneX_Mockup-blended.png';
 import AvatarOne from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-1.png';
 import AvatarTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-2.png';
 import AvatarThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-3.png';
 import AvatarFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4.png';
-import ApolloDevice from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/x-4.png';
-import AppScreenOne from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/Artboard 4.png';
-import AppScreenTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/Artboard 6.png';
-import AppScreenThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/Artboard 7.png';
-import AppScreenFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/Artboard 8.png';
-import AppScreenFive from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/Artboard 9.png';
-import AppScreenSix from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/Artboard 10.png';
-import AppScreenSeven from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/Artboard 11.png';
 import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
-import Grid from '@mui/material/Grid';
 import Chip from '@mui/material/Chip';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import AvatarDesigners from './AvatarDesigners';
 import StoreIcon from '@mui/icons-material/Store';
-import IconChips from './IconChip';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
-import ComputerIcon from '@mui/icons-material/Computer';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
-import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
-import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
-import WebAssetIcon from '@mui/icons-material/WebAsset';
-import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
-import LoyaltyOutlinedIcon from '@mui/icons-material/LoyaltyOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
-import RocketLaunchOutlinedIcon from '@mui/icons-material/RocketLaunchOutlined';
 import Stack from '@mui/material/Stack';
 import BlendedGradientShort from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/blended-email-410-short.png';
 import BlendedGradientLong from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/blended-email-410-long.png';
 
-const headerStyles = {
-    fontSize: "24px",
-    textAlign: 'left'
-}
 
 const chipFontsWhite = {
         fontFamily: 'Josefin Sans',

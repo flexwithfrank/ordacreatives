@@ -13,22 +13,14 @@ import blendedEmailFull from '/Users/rodriguezmedia/Desktop/react-counter-app/sr
 import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
 import Chip from '@mui/material/Chip';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import AvatarDesigners from './AvatarDesigners';
 import StoreIcon from '@mui/icons-material/Store';
-import IconChips from './IconChip';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import ComputerIcon from '@mui/icons-material/Computer';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
-import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
-import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
-import WebAssetIcon from '@mui/icons-material/WebAsset';
 import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
-import LoyaltyOutlinedIcon from '@mui/icons-material/LoyaltyOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
-import RocketLaunchOutlinedIcon from '@mui/icons-material/RocketLaunchOutlined';
 import Stack from '@mui/material/Stack';
 
 const headerStyles = {

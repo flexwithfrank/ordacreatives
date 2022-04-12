@@ -5,8 +5,6 @@ import AvatarOne from '/Users/rodriguezmedia/Desktop/react-counter-app/src/image
 import AvatarTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-2.png';
 import AvatarThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-3.png';
 import AvatarFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4.png';
-import ApolloDevice from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/x-4.png';
-import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
 import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
 import Stack from '@mui/material/Stack';

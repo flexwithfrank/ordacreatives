@@ -11,10 +11,8 @@ import ordaLandingFull from '/Users/rodriguezmedia/Desktop/react-counter-app/src
 import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
 import Chip from '@mui/material/Chip';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import AvatarDesigners from './AvatarDesigners';
 import StoreIcon from '@mui/icons-material/Store';
-import IconChips from './IconChip';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
