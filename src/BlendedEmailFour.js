@@ -21,6 +21,7 @@ import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import WebAssetIcon from '@mui/icons-material/WebAsset';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import Stack from '@mui/material/Stack';
+import LoyaltyOutlinedIcon from '@mui/icons-material/LoyaltyOutlined';
 
 const headerStyles = {
     fontSize: "24px",
@@ -128,6 +129,11 @@ export default function BlendedEmailFour() {
                 <Chip style={chipFontsBlack} 
                 icon={<FavoriteBorderOutlinedIcon style={{ color: 'E60965'}} />} 
                 label="Customer since 2016" 
+                variant="outlined" />
+
+                <Chip style={chipFontsBlack} 
+                icon={<LoyaltyOutlinedIcon style={{ color: 'FF0075'}} />} 
+                label="Customer loyalty program" 
                 variant="outlined" />
 
             </Stack>

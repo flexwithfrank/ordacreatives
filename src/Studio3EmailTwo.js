@@ -17,7 +17,7 @@ import StoreIcon from '@mui/icons-material/Store';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
-import RocketLaunchOutlinedIcon from '@mui/icons-material/RocketLaunchOutlined';
+import { Stack } from '@mui/material';
 
 const headerStyles = {
     fontSize: "24px",
