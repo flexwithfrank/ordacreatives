@@ -1,62 +1,11 @@
 import * as React from 'react';
 import './App.css';
-import frankieAvatar from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/oink.png';
-import AvatarOne from '../src/avatar-1.png';
-import AvatarTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-2.png';
-import AvatarThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-3.png';
-import AvatarFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4.png';
 import Box from "@mui/material/Box";
 import Stack from '@mui/material/Stack';
 import OrdaLanding from './OrdaLanding';
 import Lazy from './Lazy';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 
-const headerStyles = {
-    fontSize: "24px",
-    textAlign: 'left'
-}
-
-const chipFontsWhite = {
-        fontFamily: 'Josefin Sans',
-        color: '#ffffff',
-    }
-const chipFontsBlack = {
-    fontFamily: 'Josefin Sans',
-    color: '#000000'
-}
-
-const designerOne = {
-    src: frankieAvatar,
-    label: "Design by Frankie Rodriguez",
-}
-
-const designerTwo = {
-    src: AvatarOne,
-    label: "Design by Cherry Tomlin"
-}
-
-const designerThree = {
-    src: AvatarThree,
-    label: "Design by Greta Quinn"
-}
-const designerFour = {
-    src: AvatarFour,
-    label: "Design by Morris Cantana"
-}
-
-const designerFive = {
-    src: AvatarTwo,
-    label: "Design by Chris Encinado"
-}
-
-const Item = {
-backgroundColor: "ffffff"
-}
-
-const apolloText = {
-    text: <p>Description</p>,
-    header: <h1>HEADER</h1>
-}
 export default function GridThree() {
 
     const [open20, setOpen20] = React.useState(false);
@@ -69,7 +18,6 @@ export default function GridThree() {
         </Stack>
 
         <Box className='container'>
-
         <OrdaLanding />
         <Lazy />
 

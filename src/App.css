@@ -86,3 +86,7 @@ p {
   font-size: 24px;
 }
 
+.avatar-1{
+  background-image: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/images/avatar-2.png")
+}
+

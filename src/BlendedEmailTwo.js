@@ -1,15 +1,6 @@
 import * as React from 'react';
 import './App.css';
 import './styles/output.css';
-import frankieAvatar from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/oink.png';
-import AvatarOne from '../src/avatar-1.png';
-import AvatarTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-2.png';
-import AvatarThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-3.png';
-import AvatarFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4.png'; 
-import AvatarFive from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4 (2).png';
-import AvatarSix from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-5.png';
-import blendedEmailTwoFull from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/blended-email-22.png';
-import blendedEmailTwoShort from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/blended-email-22 copy.png';
 import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
 import Chip from '@mui/material/Chip';
@@ -36,37 +27,39 @@ const chipFontsBlack = {
 }
 
 const designerOne = {
-    src: frankieAvatar,
+    src: "/images/oink.png",
     label: "Design by Frankie Rodriguez",
 }
 
 const designerTwo = {
-    src: AvatarOne,
+    src: "/images/avatar-1.png",
     label: "Design by Cherry Tomlin"
 }
 
 const designerThree = {
-    src: AvatarThree,
+    src: "/images/avatar-3.png",
     label: "Design by Greta Quinn"
 }
 const designerFour = {
-    src: AvatarFour,
+    src: "/images/avatar-4 (2).png",
     label: "Design by Morris Cantana"
 }
 
 const designerFive = {
-    src: AvatarTwo,
-    label: "Design by Allison Brookes"
+    src: "/images/avatar-2.png",
+    label: "Design by Chris Encinado"
 }
 
 const designerSix = {
-    src: AvatarFive,
+    src: "/images/avatar-4 (2).png",
     label: "Design by Lilly Torrino"
 }
 const designerSeven = {
-    src: AvatarSix,
+    src: "/images/avatar-5.png",
     label: "Design by Rodrigo Sanchez"
 }
+
+
 
 const blendedDescription = {
     text: <p>"Blended is rapidly growing with the marketing strategies 
@@ -83,7 +76,7 @@ export default function BlendedEmailTwo() {
         <Box>
              <Box>
             <img className='item' 
-            src={blendedEmailTwoShort} 
+            src={"/images/blended-email-22 copy.png"} 
             alt="email-4" 
             onClick={() => setOpen4(true)} />
 
@@ -135,7 +128,7 @@ export default function BlendedEmailTwo() {
                 
 
             <img className='item' 
-            src={blendedEmailTwoFull} 
+            src={"/images/blended-email-22.png"} 
             alt="blended-two" />
         </Modal>
 

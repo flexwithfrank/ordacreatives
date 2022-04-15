@@ -1,15 +1,6 @@
 import * as React from 'react';
 import './App.css';
 import './styles/output.css';
-import frankieAvatar from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/oink.png';
-import AvatarOne from '../src/avatar-1.png';
-import AvatarTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-2.png';
-import AvatarThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-3.png';
-import AvatarFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4.png'; 
-import AvatarFive from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4 (2).png';
-import AvatarSix from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-5.png';
-import BlendedEmailFourLong from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/blended-four-v3.png';
-import BlendedEmailFourShort from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/blended-four-v3-short.png';
 import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
 import Chip from '@mui/material/Chip';
@@ -36,41 +27,41 @@ const chipFontsBlack = {
     fontFamily: 'Josefin Sans',
     color: '#000000'
 }
-
 const designerOne = {
-    src: frankieAvatar,
+    src: "/images/oink.png",
     label: "Design by Frankie Rodriguez",
 }
 
 const designerTwo = {
-    src: AvatarOne,
+    src: "/images/avatar-1.png",
     label: "Design by Cherry Tomlin"
 }
 
 const designerThree = {
-    src: AvatarThree,
+    src: "/images/avatar-3.png",
     label: "Design by Greta Quinn"
 }
 const designerFour = {
-    src: AvatarFour,
+    src: "/images/avatar-4 (2).png",
     label: "Design by Morris Cantana"
 }
 
 const designerFive = {
-    src: AvatarTwo,
-    label: "Design by Allison Brookes"
+    src: "/images/avatar-2.png",
+    label: "Design by Chris Encinado"
 }
 
 const designerSix = {
-    src: AvatarFive,
+    src: "/images/avatar-4 (2).png",
     label: "Design by Lilly Torrino"
 }
 const designerSeven = {
-    src: AvatarSix,
+    src: "/images/avatar-5.png",
     label: "Design by Rodrigo Sanchez"
 }
 
-const lazyDescription = {
+
+const emailFour = {
     text: <p>"Blended is rapidly growing with the marketing strategies 
             created by the Orda Creatives Team"</p>, 
     header: <h1>BLENDED</h1> 
@@ -83,7 +74,7 @@ export default function BlendedEmailFour() {
         <div>
             <Box>
             <img className='item' 
-            src={BlendedEmailFourShort} alt='webpage-one' 
+            src={"/images/blended-four-v3-short.png"} alt='webpage-one' 
             onClick={() => setOpen5(true)} />
 
             <Chip style={chipFontsBlack} 
@@ -100,8 +91,8 @@ export default function BlendedEmailFour() {
         {/* lazy sundaes modal */}
 
         <Modal open={open5} onClose={() => setOpen5(false)}>
-            <span>{lazyDescription.header}</span>
-            <span>{lazyDescription.text}</span>
+            <span>{emailFour.header}</span>
+            <span>{emailFour.text}</span>
             <Stack direction="row" spacing={1}>
                 <AvatarDesigners src={designerSix.src} label={designerSix.label} />
                 <Chip style={chipFontsBlack} 
@@ -139,7 +130,7 @@ export default function BlendedEmailFour() {
             </Stack>
 
           <img className='item' 
-          src={BlendedEmailFourLong} 
+          src={"/images/blended-four-v3.png"} 
           alt="blended-email-four" />
         
         </Modal>

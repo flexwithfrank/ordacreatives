@@ -1,13 +1,6 @@
 import * as React from 'react';
 import './App.css';
 import './styles/output.css';
-import frankieAvatar from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/oink.png';
-import AvatarOne from '../src/avatar-1.png';
-import AvatarTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-2.png';
-import AvatarThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-3.png';
-import AvatarFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4.png';
-import studio3EmailTwoShort from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/studio-email-two-short.png';
-import studioEmailTwoLong from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/studio-email-two-long.png';
 import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
 import Chip from '@mui/material/Chip';
@@ -34,28 +27,39 @@ const chipFontsBlack = {
 }
 
 const designerOne = {
-    src: frankieAvatar,
+    src: "/images/oink.png",
     label: "Design by Frankie Rodriguez",
 }
 
 const designerTwo = {
-    src: AvatarOne,
+    src: "/images/avatar-1.png",
     label: "Design by Cherry Tomlin"
 }
 
 const designerThree = {
-    src: AvatarThree,
+    src: "/images/avatar-3.png",
     label: "Design by Greta Quinn"
 }
 const designerFour = {
-    src: AvatarFour,
+    src: "/images/avatar-4 (2).png",
     label: "Design by Morris Cantana"
 }
 
 const designerFive = {
-    src: AvatarTwo,
-    label: "Design by Christina Encinado"
+    src: "/images/avatar-2.png",
+    label: "Design by Chris Encinado"
 }
+
+const designerSix = {
+    src: "/images/avatar-4 (2).png",
+    label: "Design by Lilly Torrino"
+}
+const designerSeven = {
+    src: "/images/avatar-5.png",
+    label: "Design by Rodrigo Sanchez"
+}
+
+
 
 const studioText = {
     text: <p>Boutique Fitness studio changing the way fitness is viewed.
@@ -72,7 +76,7 @@ export default function Studio3EmailTwo() {
         <Box>
              <Box>
              <img className='item' 
-             src={studio3EmailTwoShort} 
+             src={"/images/studio-email-two-short.png"} 
              alt="email-1" 
              onClick={() => setOpen(true)} />
 
@@ -116,7 +120,7 @@ export default function Studio3EmailTwo() {
             </Stack>
           <Box>
               <img className='item' 
-              src={studioEmailTwoLong} 
+              src={"/images/studio-email-two-long.png"} 
               alt="studio3-email-1" />
           </Box>
           </Modal>

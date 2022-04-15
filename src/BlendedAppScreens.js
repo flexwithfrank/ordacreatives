@@ -1,41 +1,16 @@
 
 import * as React from 'react';
 import './App.css';
-import frankieAvatar from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/oink.png';
-import BlendedDevice from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/iPhoneX_Mockup-blended.png';
-import AvatarOne from '../src/avatar-1.png';
-import AvatarTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-2.png';
-import AvatarThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-3.png';
-import AvatarFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4.png';
-import ApolloDevice from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/x-4.png';
-import AppScreenOne from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/screenshot1.png';
-import AppScreenTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/screenshot2.png';
-import AppScreenThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/screenshot3.png';
-import AppScreenFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/screenshot4.png';
-import AppScreenFive from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/screenshot5.png';
-import AppScreenSix from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/screenshot6.png';
-import AppScreenSeven from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/screenshot7.png';
-import AppScreenEight from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/screenshot8.png';
 import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
-import Grid from '@mui/material/Grid';
 import Chip from '@mui/material/Chip';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import AvatarDesigners from './AvatarDesigners';
 import StoreIcon from '@mui/icons-material/Store';
-import IconChips from './IconChip';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
-import ComputerIcon from '@mui/icons-material/Computer';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
-import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
-import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
-import WebAssetIcon from '@mui/icons-material/WebAsset';
 import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
-import LoyaltyOutlinedIcon from '@mui/icons-material/LoyaltyOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
-import RocketLaunchOutlinedIcon from '@mui/icons-material/RocketLaunchOutlined';
 import Stack from '@mui/material/Stack';
 
 const headerStyles = {
@@ -53,28 +28,38 @@ const chipFontsBlack = {
 }
 
 const designerOne = {
-    src: frankieAvatar,
+    src: "/images/oink.png",
     label: "Design by Frankie Rodriguez",
 }
 
 const designerTwo = {
-    src: AvatarOne,
+    src: "/images/avatar-1.png",
     label: "Design by Cherry Tomlin"
 }
 
 const designerThree = {
-    src: AvatarThree,
+    src: "/images/avatar-3.png",
     label: "Design by Greta Quinn"
 }
 const designerFour = {
-    src: AvatarFour,
+    src: "/images/avatar-4 (2).png",
     label: "Design by Morris Cantana"
 }
 
 const designerFive = {
-    src: AvatarTwo,
+    src: "/images/avatar-2.png",
     label: "Design by Chris Encinado"
 }
+
+const designerSix = {
+    src: "/images/avatar-4 (2).png",
+    label: "Design by Lilly Torrino"
+}
+const designerSeven = {
+    src: "/images/avatar-5.png",
+    label: "Design by Rodrigo Sanchez"
+}
+
 
 const Item = {
 backgroundColor: "ffffff"
@@ -95,7 +80,7 @@ export default function BlendedAppScreens() {
     return(
         <Box>
             <img className='item'
-            src={BlendedDevice} 
+            src={"/images/iPhoneX_Mockup-blended.png"} 
             alt='webpage-one' 
             onClick={() => setOpen21(true)} />
 
@@ -141,35 +126,35 @@ export default function BlendedAppScreens() {
                 <div className='rueContainerModal'>
 
                 <img className='item' 
-                src={AppScreenOne} 
+                src={"/images/screenshot1.png"} 
                 alt="b-two" />
 
                 <img className='item' 
-                src={AppScreenTwo} 
+                src={"/images/screenshot2.png"} 
                 alt="b-two" />
 
                 <img className='item' 
-                src={AppScreenThree} 
+                src={"/images/screenshot3.png"} 
                 alt="b-two" />
 
                 <img className='item' 
-                src={AppScreenFour} 
+                src={"/images/screenshot4.png"} 
                 alt="b-two" />
 
                 <img className='item' 
-                src={AppScreenFive} 
+                src={"/images/screenshot5.png"} 
                 alt="b-two" />
 
                 <img className='item' 
-                src={AppScreenSix} 
+                src={"/images/screenshot6.png"} 
                 alt="b-two" />
 
                 <img className='item' 
-                src={AppScreenSeven} 
+                src={"/images/screenshot7.png"} 
                 alt="b-two" />
 
                 <img className='item' 
-                src={AppScreenEight} 
+                src={"/images/screenshot8.png"} 
                 alt="b-two" />
 
                 </div>

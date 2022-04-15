@@ -1,11 +1,6 @@
 
 import * as React from 'react';
 import './App.css';
-import frankieAvatar from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/oink.png';
-import AvatarOne from '../src/avatar-1.png';
-import AvatarTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-2.png';
-import AvatarThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-3.png';
-import AvatarFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4.png';
 import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
 import Chip from '@mui/material/Chip';
@@ -16,8 +11,6 @@ import RestaurantIcon from '@mui/icons-material/Restaurant';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import Stack from '@mui/material/Stack';
-import BlendedGradientShort from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/blended-email-410-short.png';
-import BlendedGradientLong from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/blended-email-410-long.png';
 
 
 const chipFontsWhite = {
@@ -30,28 +23,39 @@ const chipFontsBlack = {
 }
 
 const designerOne = {
-    src: frankieAvatar,
+    src: "/images/oink.png",
     label: "Design by Frankie Rodriguez",
 }
 
 const designerTwo = {
-    src: AvatarOne,
+    src: "/images/avatar-1.png",
     label: "Design by Cherry Tomlin"
 }
 
 const designerThree = {
-    src: AvatarThree,
+    src: "/images/avatar-3.png",
     label: "Design by Greta Quinn"
 }
 const designerFour = {
-    src: AvatarFour,
+    src: "/images/avatar-4 (2).png",
     label: "Design by Morris Cantana"
 }
 
 const designerFive = {
-    src: AvatarTwo,
+    src: "/images/avatar-2.png",
     label: "Design by Chris Encinado"
 }
+
+const designerSix = {
+    src: "/images/avatar-4 (2).png",
+    label: "Design by Lilly Torrino"
+}
+const designerSeven = {
+    src: "/images/avatar-5.png",
+    label: "Design by Rodrigo Sanchez"
+}
+
+
 
 const Item = {
 backgroundColor: "ffffff"
@@ -69,7 +73,7 @@ export default function BlendedEmailThree() {
     return(
         <Box>
             <img className='item'
-            src={BlendedGradientShort} 
+            src={"/images/blended-email-410-short.png"} 
             alt='webpage-one' 
             onClick={() => setOpen22(true)} />
 
@@ -115,7 +119,7 @@ export default function BlendedEmailThree() {
                 <div>
 
                 <img className='item' 
-                src={BlendedGradientLong} 
+                src={"/images/blended-email-410-long.png"} 
                 alt="lyf-two" />
 
                 </div>

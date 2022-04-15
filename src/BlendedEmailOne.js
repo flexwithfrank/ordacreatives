@@ -1,27 +1,17 @@
 import * as React from 'react';
 import './App.css';
 import './styles/output.css';
-import frankieAvatar from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/oink.png';
-import AvatarOne from '../src/avatar-1.png';
-import AvatarTwo from '../src/avatar-1.png';
-import AvatarThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-3.png';
-import AvatarFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4.png'; 
-import AvatarFive from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4 (2).png';
-import AvatarSix from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-5.png';
-import blendedEmail from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/blended-email-2.png';
-import blendedEmailFull from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/blendedFullFinal.png';
 import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
 import Chip from '@mui/material/Chip';
-import AvatarDesigners from './AvatarDesigners';
 import StoreIcon from '@mui/icons-material/Store';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
-import ComputerIcon from '@mui/icons-material/Computer';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import Stack from '@mui/material/Stack';
+import AvatarsTemplate from './AvatarsTemplate';
 
 const headerStyles = {
     fontSize: "24px",
@@ -38,36 +28,44 @@ const chipFontsBlack = {
 }
 
 const designerOne = {
-    src: frankieAvatar,
+    src: "/images/oink.png",
     label: "Design by Frankie Rodriguez",
 }
 
 const designerTwo = {
-    src: AvatarOne,
+    src: "/images/avatar-1.png",
     label: "Design by Cherry Tomlin"
 }
 
 const designerThree = {
-    src: AvatarThree,
+    src: "/images/avatar-3.png",
     label: "Design by Greta Quinn"
 }
 const designerFour = {
-    src: AvatarFour,
+    src: "/images/avatar-4 (2).png",
     label: "Design by Morris Cantana"
 }
 
 const designerFive = {
-    src: AvatarTwo,
-    label: "Design by Allison Brookes"
+    src: "/images/avatar-2.png",
+    label: "Design by Chris Encinado"
 }
 
 const designerSix = {
-    src: AvatarFive,
+    src: "/images/avatar-4 (2).png",
     label: "Design by Lilly Torrino"
 }
 const designerSeven = {
-    src: AvatarSix,
+    src: "/images/avatar-5.png",
     label: "Design by Rodrigo Sanchez"
+}
+
+
+const designerTitle = {
+    alt: "Gina Turner",
+    alt2: "Frankie Garcia",
+    src: "/images/avatar-2.png",
+    src2: "/images/avatar-4 (2).png"
 }
 
 const blendedDescription = {
@@ -84,7 +82,7 @@ export default function BlendedEmailOne() {
         <Box>
             <Box>
             <img className='item' 
-            src={blendedEmail} 
+            src={"/images/blended-email-2.png"} 
             alt="email-2" 
             onClick={() => setOpen2(true)}/>
 
@@ -101,9 +99,18 @@ export default function BlendedEmailOne() {
         {/* blended modal one */}
 
         <Modal open={open2} onClose={() => setOpen2(false)}>
-            <h1 style={headerStyles}>Blended Juice</h1>
+            <h2 style={headerStyles}>{blendedDescription.header}</h2>
+            <span>{blendedDescription.text}</span>
+
+            <AvatarsTemplate alt={designerTitle.alt} 
+            alt2={designerTitle.alt2}
+            src={designerTitle.src} 
+            src2={designerTitle.src2} 
+            des={"Designed by Frankie & Gina"} />
+            
+
             <Stack direction="row" spacing={1}>
-                <AvatarDesigners src={designerSeven.src} label={designerSeven.label} />
+                {/* <AvatarDesigners src={designerSeven.src} label={designerSeven.label} /> */}
                 <Chip  style={chipFontsBlack} 
                 label="Located in — Seattle, Wa "
                 icon={<StoreIcon style={{ color: '30AADD'}}/>} 
@@ -134,7 +141,7 @@ export default function BlendedEmailOne() {
             </Stack>
 
             <img className='item' 
-            src={blendedEmailFull} 
+            src={"/images/blended-email-2.png"} 
             alt="blended-email-1" />
 
         </Modal>

@@ -1,22 +1,8 @@
 
 import * as React from 'react';
 import './App.css';
-import frankieAvatar from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/oink.png';
-import AvatarOne from '../src/avatar-1.png';
-import AvatarTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-2.png';
-import AvatarThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-3.png';
-import AvatarFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4.png';
-import ApolloDevice from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/x-4.png';
-import AppScreenOne from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/Artboard 4.png';
-import AppScreenTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/Artboard 6.png';
-import AppScreenThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/Artboard 7.png';
-import AppScreenFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/Artboard 8.png';
-import AppScreenFive from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/Artboard 9.png';
-import AppScreenSix from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/Artboard 10.png';
-import AppScreenSeven from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/Artboard 11.png';
 import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
-import Grid from '@mui/material/Grid';
 import Chip from '@mui/material/Chip';
 import AvatarDesigners from './AvatarDesigners';
 import StoreIcon from '@mui/icons-material/Store';
@@ -40,30 +26,39 @@ const chipFontsBlack = {
     fontFamily: 'Josefin Sans',
     color: '#000000'
 }
-
 const designerOne = {
-    src: frankieAvatar,
+    src: "/images/oink.png",
     label: "Design by Frankie Rodriguez",
 }
 
 const designerTwo = {
-    src: AvatarOne,
+    src: "/images/avatar-1.png",
     label: "Design by Cherry Tomlin"
 }
 
 const designerThree = {
-    src: AvatarThree,
+    src: "/images/avatar-3.png",
     label: "Design by Greta Quinn"
 }
 const designerFour = {
-    src: AvatarFour,
+    src: "/images/avatar-4 (2).png",
     label: "Design by Morris Cantana"
 }
 
 const designerFive = {
-    src: AvatarTwo,
+    src: "/images/avatar-2.png",
     label: "Design by Chris Encinado"
 }
+
+const designerSix = {
+    src: "/images/avatar-4 (2).png",
+    label: "Design by Lilly Torrino"
+}
+const designerSeven = {
+    src: "/images/avatar-5.png",
+    label: "Design by Rodrigo Sanchez"
+}
+
 
 const Item = {
 backgroundColor: "ffffff"
@@ -84,7 +79,7 @@ export default function ApolloBurger() {
     return(
         <Box>
             <img className='item'
-            src={ApolloDevice} 
+            src={"/images/x-4.png"} 
             alt='webpage-one' 
             onClick={() => setOpen20(true)} />
 
@@ -130,31 +125,31 @@ export default function ApolloBurger() {
                 <div className='rueContainerModal'>
 
                 <img className='item' 
-                src={AppScreenOne} 
+                src={"/images/Artboard 4.png"} 
                 alt="lyf-two" />
 
                 <img className='item' 
-                src={AppScreenTwo} 
+                src={"/images/Artboard 6.png"} 
                 alt="lyf-two" />
 
                 <img className='item' 
-                src={AppScreenThree} 
+                src={"/images/Artboard 7.png"} 
                 alt="lyf-two" />
 
                 <img className='item' 
-                src={AppScreenFour} 
+                src={"/images/Artboard 8.png"} 
                 alt="lyf-two" />
 
                 <img className='item' 
-                src={AppScreenFive} 
+                src={"/images/Artboard 10.png"} 
                 alt="lyf-two" />
 
                 <img className='item' 
-                src={AppScreenSix} 
+                src={"/images/Artboard 10.png"} 
                 alt="lyf-two" />
 
                 <img className='item' 
-                src={AppScreenSeven} 
+                src={"/images/Artboard 11.png"} 
                 alt="lyf-two" />
 
                 </div>

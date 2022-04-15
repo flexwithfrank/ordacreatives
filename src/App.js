@@ -24,7 +24,6 @@ export default function App() {
         <Box sx={{width: 600, textAlign: 'center'}}>
         <p>Expertly crafted marketing assets created for growth, customer loyalty, and audience engagement!</p>
         </Box>
-
         <ButtonOne />
         <AuthorAvatars />
 

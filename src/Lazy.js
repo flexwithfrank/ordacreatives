@@ -1,13 +1,6 @@
 import * as React from 'react';
 import './App.css';
 import './styles/output.css';
-import frankieAvatar from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/oink.png';
-import AvatarOne from '../src/avatar-1.png';
-import AvatarTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-2.png';
-import AvatarThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-3.png';
-import AvatarFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4.png'; 
-import lazyMapPage from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/lazy-ordering.png';
-import lazyOrdaMe from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/lazy-web-4-9-01.png';
 import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
 import Chip from '@mui/material/Chip';
@@ -35,28 +28,39 @@ const chipFontsBlack = {
 }
 
 const designerOne = {
-    src: frankieAvatar,
+    src: "/images/oink.png",
     label: "Design by Frankie Rodriguez",
 }
 
 const designerTwo = {
-    src: AvatarOne,
+    src: "/images/avatar-1.png",
     label: "Design by Cherry Tomlin"
 }
 
 const designerThree = {
-    src: AvatarThree,
+    src: "/images/avatar-3.png",
     label: "Design by Greta Quinn"
 }
 const designerFour = {
-    src: AvatarFour,
+    src: "/images/avatar-4 (2).png",
     label: "Design by Morris Cantana"
 }
 
 const designerFive = {
-    src: AvatarTwo,
+    src: "/images/avatar-2.png",
     label: "Design by Chris Encinado"
 }
+
+const designerSix = {
+    src: "/images/avatar-4 (2).png",
+    label: "Design by Lilly Torrino"
+}
+const designerSeven = {
+    src: "/images/avatar-5.png",
+    label: "Design by Rodrigo Sanchez"
+}
+
+
 
 const lazyDescription = {
     text: <p>"Online ordering designed to enhance the customer
@@ -73,7 +77,7 @@ export default function Lazy() {
         <div>
             <Box>
             <img className='item' 
-            src={lazyOrdaMe} alt='webpage-one' 
+            src={"/images/lazy-web-4-9-01.png"} alt='webpage-one' 
             onClick={() => setOpen5(true)} />
 
             <Chip style={chipFontsBlack} 
@@ -124,10 +128,10 @@ export default function Lazy() {
             </Stack>
 
           <img className='item' 
-          src={lazyMapPage} 
+          src={"/images/lazy-ordering.png"} 
           alt="map-page-one" />
           <img className='item' 
-          src={lazyOrdaMe} 
+          src={"/images/lazy-web-4-9-01.png"} 
           alt="map-page-one" />
           
         </Modal>

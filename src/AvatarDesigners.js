@@ -1,10 +1,5 @@
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
-import Stack from '@mui/material/Stack';
-import frankieAvatar from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/oink.png';
-import { AvatarGroup } from '@mui/material';
-import { fontSize } from '@mui/system';
-import { spacing } from '@mui/system';
 import Chip from '@mui/material/Chip';
 
 const chipFontsBlack = {

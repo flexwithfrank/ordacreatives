@@ -1,13 +1,6 @@
 import * as React from 'react';
 import './App.css';
-import './styles/output.css';
-import frankieAvatar from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/oink.png';
-import AvatarOne from '../src/avatar-1.png';
-import AvatarTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-2.png';
-import AvatarThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-3.png';
-import AvatarFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4.png';
-import studioEmailLong from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/studio3-email-2.png';
-import studioEmailShort from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/studio3-email-2-short.png';
+import './styles/output.css'; 
 import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
 import Chip from '@mui/material/Chip';
@@ -20,43 +13,45 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 import CampaignIcon from '@mui/icons-material/Campaign';
 import Stack from '@mui/material/Stack';
 
-const headerStyles = {
-    fontSize: "24px",
-    textAlign: 'left'
-}
-
-const chipFontsWhite = {
-        fontFamily: 'Josefin Sans',
-        color: '#ffffff',
-    }
 const chipFontsBlack = {
     fontFamily: 'Josefin Sans',
     color: '#000000'
 }
 
 const designerOne = {
-    src: frankieAvatar,
+    src: "/images/oink.png",
     label: "Design by Frankie Rodriguez",
 }
 
 const designerTwo = {
-    src: AvatarOne,
+    src: "/images/avatar-1.png",
     label: "Design by Cherry Tomlin"
 }
 
 const designerThree = {
-    src: AvatarThree,
+    src: "/images/avatar-3.png",
     label: "Design by Greta Quinn"
 }
 const designerFour = {
-    src: AvatarFour,
+    src: "/images/avatar-4 (2).png",
     label: "Design by Morris Cantana"
 }
 
 const designerFive = {
-    src: AvatarTwo,
-    label: "Design by Christina Encinado"
+    src: "/images/avatar-2.png",
+    label: "Design by Chris Encinado"
 }
+
+const designerSix = {
+    src: "/images/avatar-4 (2).png",
+    label: "Design by Lilly Torrino"
+}
+const designerSeven = {
+    src: "/images/avatar-5.png",
+    label: "Design by Rodrigo Sanchez"
+}
+
+
 
 const studioText = {
     text: <p>Boutique Fitness studio changing the way fitness is viewed.
@@ -72,7 +67,7 @@ export default function Studio3() {
 
         <Box>
             <img className='item' 
-            src={studioEmailShort} 
+            src={"/images/studio3-email-2-short.png"} 
             alt='webpage-one' 
             onClick={() => setOpen10(true)} />
 
@@ -120,7 +115,7 @@ export default function Studio3() {
                 variant="outlined" />
             <Stack direction="column" spacing={1}>
                 <img className='item' 
-                src={studioEmailLong} 
+                src={"/images/studio3-email-2.png"} 
                 alt="studio" />
             </Stack>
             

@@ -1,21 +1,6 @@
 import * as React from 'react';
 import './App.css';
-import './styles/output.css';
-import frankieAvatar from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/oink.png';
-import AvatarOne from '../src/avatar-1.png';
-import AvatarTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-2.png';
-import AvatarThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-3.png';
-import AvatarFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4.png';
-import ruePostOne from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/rue-post-1.png';
-import ruePostTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/rue-post-2.png';
-import ruePostThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/rue-post-3.png';
-import rueSignage from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/rue-instore-sign.png'
-import rueEmailOne from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/rue-email-1.png';
-import rueEmailTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/rue-email-2.png';
-import rueEmailThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/rue-email-3.png';
-import rueStoryOne from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/story-2.png';
-import rueStoryTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/story-1.png';
-import rueStoryThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/story 4.png';
+import './styles/output.css'; 
 import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
 import Chip from '@mui/material/Chip';
@@ -44,28 +29,38 @@ const chipFontsBlack = {
 }
 
 const designerOne = {
-    src: frankieAvatar,
+    src: "/images/oink.png",
     label: "Design by Frankie Rodriguez",
 }
 
 const designerTwo = {
-    src: AvatarOne,
+    src: "/images/avatar-1.png",
     label: "Design by Cherry Tomlin"
 }
 
 const designerThree = {
-    src: AvatarThree,
+    src: "/images/avatar-3.png",
     label: "Design by Greta Quinn"
 }
 const designerFour = {
-    src: AvatarFour,
+    src: "/images/avatar-4 (2).png",
     label: "Design by Morris Cantana"
 }
 
 const designerFive = {
-    src: AvatarTwo,
+    src: "/images/avatar-2.png",
     label: "Design by Chris Encinado"
 }
+
+const designerSix = {
+    src: "/images/avatar-4 (2).png",
+    label: "Design by Lilly Torrino"
+}
+const designerSeven = {
+    src: "/images/avatar-5.png",
+    label: "Design by Rodrigo Sanchez"
+}
+
 
 const rueText = {
     text: <p>Results driven rewards program created by
@@ -92,7 +87,7 @@ export default function RueModal() {
       <Box>
         {/* rue post part of grid */}
         <img className='item' 
-        src={rueSignage} 
+        src={"/images/rue-instore-sign.png"} 
         alt='webpage-one' 
         onClick={() => setOpen7(true)} />
 
@@ -138,39 +133,39 @@ export default function RueModal() {
             {/* the actual IG posts embeded in modal */}
             <div className='rueContainerModal'>
             <img className="item" 
-            src={ruePostOne} 
+            src={"/images/rue-post-1.png"} 
             onClick={() => setOpenPost1(true)} />
 
             <img className="item" 
-            src={ruePostTwo}
+            src={"/images/rue-post-2.png"}
             onClick={() => setOpenPost2(true)} />
 
             <img className="item" 
-            src={ruePostThree}
+            src={"/images/rue-post-3.png"}
             onClick={() => setOpenPost3(true)} />
 
             <img className="item"
-            src={rueEmailOne}
+            src={"/images/rue-email-1.png"}
             onClick={() => setOpenPost4(true)} />
 
             <img className="item"
-            src={rueEmailTwo}
+            src={"/images/rue-email-2.png"}
             onClick={() => setOpenPost5(true)} />
 
             <img className="item"
-            src={rueEmailThree}
+            src={"/images/rue-email-3.png"}
             onClick={() => setOpenPost6(true)} />
 
             <img className="item"
-            src={rueStoryOne}
+            src={"/images/story-2.png"}
             onClick={() => setOpenPost7(true)} />
 
             <img className="item"
-            src={rueStoryTwo}
+            src={"/images/story-1.png"}
             onClick={() => setOpenPost8(true)} />
 
             <img className="item"
-            src={rueStoryThree}
+            src={"/images/story 4.png"}
             onClick={() => setOpenPost9(true)} />
 
 
@@ -184,7 +179,7 @@ export default function RueModal() {
                 icon={<InstagramIcon style={{ color: 'ffffff'}} />} 
                 label="Instagram Post" />
 
-             <img className="item" src={ruePostOne} />
+             <img className="item" src={"/images/rue-post-1.png"} />
         </Modal>
 
         <Modal open={openPost2} onClose={() => setOpenPost2(false)}>
@@ -192,7 +187,7 @@ export default function RueModal() {
                 style={chipFontsWhite} 
                 icon={<InstagramIcon style={{ color: 'ffffff'}} />} 
                 label="Instagram Post" />
-             <img className="item" src={ruePostTwo} />
+             <img className="item" src={"/images/rue-post-2.png"} />
         </Modal>
 
         <Modal open={openPost3} onClose={() => setOpenPost3(false)}>
@@ -200,7 +195,7 @@ export default function RueModal() {
                 style={chipFontsWhite} 
                 icon={<InstagramIcon style={{ color: 'ffffff'}} />} 
                 label="Instagram Post" />
-             <img className="item" src={ruePostThree} />
+             <img className="item" src={"/images/rue-post-3.png"} />
         </Modal>
 
         <Modal open={openPost4} onClose={() => setOpenPost4(false)}>
@@ -208,7 +203,7 @@ export default function RueModal() {
                 style={chipFontsWhite} 
                 icon={<MailOutlineIcon style={{ color: 'ffffff'}} />} 
                 label="Email Campaign 1" />
-             <img className="item" src={rueEmailOne} />
+             <img className="item" src={"/images/rue-email-1.png"} />
         </Modal>
 
         <Modal open={openPost5} onClose={() => setOpenPost5(false)}>
@@ -216,7 +211,7 @@ export default function RueModal() {
                 style={chipFontsWhite} 
                 icon={<MailOutlineIcon style={{ color: 'ffffff'}} />} 
                 label="Email Campaign 2" />
-             <img className="item" src={rueEmailTwo} />
+             <img className="item" src={"/images/rue-email-2.png"} />
         </Modal>
 
         <Modal open={openPost6} onClose={() => setOpenPost6(false)}>
@@ -224,7 +219,7 @@ export default function RueModal() {
                 style={chipFontsWhite} 
                 icon={<MailOutlineIcon style={{ color: 'ffffff'}} />} 
                 label="Email Campaign 3" />
-             <img className="item" src={rueEmailThree} />
+             <img className="item" src={"/images/rue-email-3.png"} />
         </Modal>
 
         <Modal open={openPost7} onClose={() => setOpenPost7(false)}>
@@ -232,7 +227,7 @@ export default function RueModal() {
                 style={chipFontsWhite} 
                 icon={<InstagramIcon style={{ color: 'ffffff'}} />} 
                 label="Instagram Story Post" />
-             <img className="item" src={rueStoryOne} />
+             <img className="item" src={"/images/story-2.png"} />
         </Modal>
 
         <Modal open={openPost8} onClose={() => setOpenPost8(false)}>
@@ -240,7 +235,7 @@ export default function RueModal() {
                 style={chipFontsWhite} 
                 icon={<InstagramIcon style={{ color: 'ffffff'}} />} 
                 label="Instagram Story Post" />
-             <img className="item" src={rueStoryTwo} />
+             <img className="item" src={"/images/story-1.png"} />
         </Modal>
 
         <Modal open={openPost9} onClose={() => setOpenPost9(false)}>
@@ -248,7 +243,7 @@ export default function RueModal() {
                 style={chipFontsWhite} 
                 icon={<InstagramIcon style={{ color: 'ffffff'}} />} 
                 label="Instagram Story Post" />
-             <img className="item" src={rueStoryThree} />
+             <img className="item" src={"/images/story 4.png"} />
         </Modal>
 
       </Box>

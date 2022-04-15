@@ -1,14 +1,6 @@
 import * as React from 'react';
 import './App.css';
 import './styles/output.css';
-import frankieAvatar from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/oink.png';
-import AvatarOne from '../src/avatar-1.png';
-import AvatarTwo from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-2.png';
-import AvatarThree from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-3.png';
-import AvatarFour from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/avatar-4.png';
-import lyfEmailShort from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/lyf-email-short-1.png';
-import lyfEmailFull from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/lyf-email-full-1.png'
-import lyfDevice from '/Users/rodriguezmedia/Desktop/react-counter-app/src/images/lyf-phone.png';
 import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
 import Chip from '@mui/material/Chip';
@@ -36,28 +28,39 @@ const chipFontsBlack = {
 }
 
 const designerOne = {
-    src: frankieAvatar,
+    src: "/images/oink.png",
     label: "Design by Frankie Rodriguez",
 }
 
 const designerTwo = {
-    src: AvatarOne,
+    src: "/images/avatar-1.png",
     label: "Design by Cherry Tomlin"
 }
 
 const designerThree = {
-    src: AvatarThree,
+    src: "/images/avatar-3.png",
     label: "Design by Greta Quinn"
 }
 const designerFour = {
-    src: AvatarFour,
+    src: "/images/avatar-4 (2).png",
     label: "Design by Morris Cantana"
 }
 
 const designerFive = {
-    src: AvatarTwo,
+    src: "/images/avatar-2.png",
     label: "Design by Chris Encinado"
 }
+
+const designerSix = {
+    src: "/images/avatar-4 (2).png",
+    label: "Design by Lilly Torrino"
+}
+const designerSeven = {
+    src: "/images/avatar-5.png",
+    label: "Design by Rodrigo Sanchez"
+}
+
+
 
 const lyfText = {
     text: <p>Game changing lifestyle branding looking for 
@@ -76,7 +79,7 @@ export default function LyfModal() {
             
         <Box>
             <img className='item' 
-            src={lyfEmailShort} 
+            src={"/images/lyf-email-short-1.png"} 
             alt='webpage-one' 
             onClick={() => setOpen6(true)} />
 
@@ -120,10 +123,10 @@ export default function LyfModal() {
             </Stack>
             <Stack direction="column" spacing={1}>
                 <img className='item' 
-                src={lyfDevice} 
+                src={"/images/lyf-phone.png"} 
                 alt="lyf-two" />
                 <img className='item' 
-                src={lyfEmailFull} 
+                src={"/images/lyf-email-full-1.png"} 
                 alt="lyf-two" />
             </Stack>
             
