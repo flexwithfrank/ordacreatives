@@ -16,6 +16,7 @@ import HeaderTitlesIcons from "./HeaderTitlesIcons";
 import HeroSectionReuseable from "./HeroSectionReusable";
 import HeroSectionReuseableV2 from "./HeroSectionReusableV2";
 import InfoCards from "./InfoCards";
+import NavBar from "./NavBar";
 
 const message = {
     headerOne: <h1>Enhance your customer experience with Orda Creatives©</h1>,
@@ -30,7 +31,7 @@ const messageTwo = {
 const cardOne = {
   media: "/images/creator-2.png",
   text1: <span>App launch marketing</span>,
-  text2: <span>We'll take charge of your app growth</span>,
+  text2: <span>Our results driven approach will get usage</span>,
   button: "Learn More"
 }
 const cardTwo = {
@@ -42,7 +43,7 @@ const cardTwo = {
 const cardThree = {
   media: "/images/creator-4.png",
   text1: <span>Email + SMS marketing</span>,
-  text2: <span>We'll take charge of your app growth</span>,
+  text2: <span>Your secret weapon is in your customers pocket. We'll reach them</span>,
   button: "Learn More"
 }
 
@@ -51,6 +52,7 @@ const cardThree = {
 export default function App() {
   return (
     <Box className="App-header">
+      <NavBar />
 
       {/* section one hero */}
 

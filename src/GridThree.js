@@ -4,24 +4,30 @@ import Box from "@mui/material/Box";
 import Stack from '@mui/material/Stack';
 import OrdaLanding from './OrdaLanding';
 import Lazy from './Lazy';
-import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import HeaderTitlesIcons from './HeaderTitlesIcons';
+import CheckIcon from '@mui/icons-material/Check';
 
 export default function GridThree() {
 
-    const [open20, setOpen20] = React.useState(false);
   return (
 
-        <Box className='container'>
-        <Box><HeaderTitlesIcons 
-        icon={<LanguageOutlinedIcon 
-        sx={{ width: 50, height: 50, mr: 2 }} />} 
-        text={"EMAILS"} /></Box>
-        <OrdaLanding />
-        <Lazy />
+        <Box sx={{ alignContent: 'center', 
+              borderRadius: 5, 
+              mt: 5, mb: 50, p: 5, 
+              maxWidth: 1400 }} 
+              className='bg-color-1'>
+          <Box className='container'>
+          <Box><HeaderTitlesIcons 
+              icon={<CheckIcon 
+              sx={{ width: 50, height: 50 }} />} 
+              text={"Website design and digital media"} /></Box>
+          <OrdaLanding />
+          <Lazy />
 
-        <div></div>
-        <div></div>
-    </Box>
+            <div></div>
+            <div></div>
+            </Box>
+        </Box>
+        
   );
 }

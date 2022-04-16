@@ -11,7 +11,8 @@ import BlendedEmailOne from './BlendedEmailOne';
 import BlendedEmailTwo from './BlendedEmailTwo';
 import Studio3EmailTwo from './Studio3EmailTwo';
 import HeaderTitlesIcons from './HeaderTitlesIcons';
-import MarkEmailReadOutlinedIcon from '@mui/icons-material/MarkEmailReadOutlined';
+import AddIcon from '@mui/icons-material/Add';
+import CheckIcon from '@mui/icons-material/Check';
 
 
 export default function Grid () {
@@ -19,13 +20,13 @@ export default function Grid () {
     return(
 
         <div>
-        <Box sx={{mt: 10}} className="container">
-
+        <Box sx={{mt: 10, p: 7, 
+            borderRadius: 5 }} 
+            className="container bg-color-1">
         <Box><HeaderTitlesIcons 
-        icon={<MarkEmailReadOutlinedIcon 
+        icon={<CheckIcon 
         sx={{ width: 50, height: 50, mr: 2 }} />} 
-        text={"EMAILS"} /></Box>
-
+        text={"Beatifully designed growth emails"} /></Box>
         <BlendedEmailOne />
         <BlendedEmailTwo />
         <BlendedEmailThree />

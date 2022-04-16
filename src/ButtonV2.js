@@ -7,6 +7,8 @@ const buttonStylesV2 = {
     
 }
 
+
+
 export default function ButtonV2({ txt }) {
 
   const handleClick = () => {

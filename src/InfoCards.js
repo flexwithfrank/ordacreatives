@@ -13,7 +13,7 @@ export default function InfoCards({ med, txt1, txt2, btn}) {
           component="img"
           height="5000"
           image={med}
-          alt="green iguana"
+          alt="image"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">

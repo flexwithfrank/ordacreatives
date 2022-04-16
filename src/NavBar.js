@@ -1,0 +1,63 @@
+import React from 'react';
+import { AppBar, Toolbar, Typography, Button } from "@mui/material";
+import { makeStyles } from '@mui/styles';
+import { Link as RouterLink } from "react-router-dom";
+import ReactDOM from "react-dom";
+
+
+export default function NavBar() {
+
+    const displayDesktop = () => {
+        return (
+            <Toolbar>
+                {ordaCreatives}
+                {getMenuButtons()}
+            </Toolbar>
+        );
+    };
+
+    const ordaCreatives = (
+        <Typography variant="h6" component="h1">
+            <span className='visage'>Orda Creatives</span>
+        </Typography>
+    );
+
+    const getMenuButtons = () => {
+        return navData.map(({ label, href }) => {
+            return (
+                <Button {...{
+                    key: label,
+                    color: 'inherit',
+                    to: href,
+                    component: RouterLink,
+                }}>
+                    {label}
+                </Button>
+            );
+        });
+    };
+    const useStyles = makeStyles(() => ({
+        header: {
+            backgroundColor: "#101827",
+        },
+    }));
+
+    const { header } = useStyles();
+
+    const navData = [
+        {
+            label: 'Sign Up',
+            href: '/listings',
+        },
+        {
+            label: 'Send message',
+            href: '/email'
+        },
+    ];
+
+    return(
+        <header>
+            <AppBar className={header}>{displayDesktop()}</AppBar>
+        </header>
+    );
+}

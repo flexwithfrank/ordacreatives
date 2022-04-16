@@ -6,10 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import 'react-responsive-modal/styles.css';
 import './App.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
+import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <App />
+    </Router>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -6,6 +6,7 @@ import Stack from '@mui/material/Stack';
 import ApolloBurger from './ApolloBurger';
 import BlendedAppScreens from './BlendedAppScreens';
 import HeaderTitlesIcons from './HeaderTitlesIcons';
+import CheckIcon from '@mui/icons-material/Check';
 
 export default function GridTwo() {
 
@@ -13,15 +14,13 @@ export default function GridTwo() {
 
     <div>
       
-        <Box sx={{ mt: 10 }} className='container'>
-          <Box sx={{ textAlign: 'center' }}><HeaderTitlesIcons 
-        icon={<PhoneIphoneOutlinedIcon 
-        sx={{ width: 50, height: 50, mr: 2 }} />} 
-        text={"MOBILE APP DESIGN"} /></Box>
+        <Box sx={{ mt: 15 }} className='container'>
+          <Box><HeaderTitlesIcons 
+        icon={<CheckIcon 
+        sx={{ width: 50, height: 50 }} />} 
+        text={"Mobile app design and brand identity"} /></Box>
         <ApolloBurger />
         <BlendedAppScreens />
-        <Box></Box>
-        <Box></Box>
         
     </Box>
     </div>
