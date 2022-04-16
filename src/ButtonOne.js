@@ -27,7 +27,7 @@ const buttonStyles = {
 export default function IconLabelButtons(){
 
     const handleClick = () => {
-        window.open("https://www.getorda.com/")
+        window.open("https://calendly.com/d/pgcc-rgmr/introduction-call-orda-mobile-app-marketing-service?month=2022-04");
     }
 
     return(

@@ -5,23 +5,19 @@ import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
 import Stack from '@mui/material/Stack';
 import ApolloBurger from './ApolloBurger';
 import BlendedAppScreens from './BlendedAppScreens';
+import HeaderTitlesIcons from './HeaderTitlesIcons';
 
 export default function GridTwo() {
 
   return (
 
     <div>
-        <Box>
-        <Stack sx={{ justifyContent: 'center', 
-        alignItems: 'center', mt: 4, mb: 8 }} 
-        direction="row" spacing={1}>
-
-        <PhoneIphoneOutlinedIcon sx={{ width: 50, height: 50, mr: 2 }} />
-          <h2>Mobile App Design</h2>
-        </Stack>  
-        </Box>
-
-        <Box className='container'>
+      
+        <Box sx={{ mt: 10 }} className='container'>
+          <Box sx={{ textAlign: 'center' }}><HeaderTitlesIcons 
+        icon={<PhoneIphoneOutlinedIcon 
+        sx={{ width: 50, height: 50, mr: 2 }} />} 
+        text={"MOBILE APP DESIGN"} /></Box>
         <ApolloBurger />
         <BlendedAppScreens />
         <Box></Box>

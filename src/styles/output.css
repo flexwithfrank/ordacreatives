@@ -669,10 +669,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-left {
   text-align: left;
 }
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
