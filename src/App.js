@@ -30,19 +30,19 @@ const cardOne = {
   media: "/images/infoCard-app.png",
   text1: <span>App launch marketing</span>,
   text2: <span>From live app to customer downloads. We'll handle it.</span>,
-  button: "Learn More"
+  button: "Get Started — it's easy"
 }
 const cardTwo = {
   media: "/images/infoCard-web.png",
   text1: <span>Email + SMS marketing</span>,
   text2: <span>We'll supercharge your marketing for max downloads</span>,
-  button: "Learn More"
+  button: "Get Started — it's easy"
 }
 const cardThree = {
   media: "/images/infoCard-signage.png",
   text1: <span>Physical Signage</span>,
-  text2: <span>Customized sigange for every use case.</span>,
-  button: "Learn More"
+  text2: <span>Customized signage for every use case.</span>,
+  button: "Get Started — it's easy"
 }
 
 

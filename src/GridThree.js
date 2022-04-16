@@ -14,7 +14,7 @@ export default function GridThree() {
 
         <Box sx={{ alignContent: 'center', 
               borderRadius: 5, 
-              mt: 5, mb: 50, p: 5, 
+              mt: 5, mb: 10, p: 5, 
               maxWidth: 1400 }} 
               className='bg-color-1'>
           <Box className='container'>

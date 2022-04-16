@@ -21,7 +21,11 @@ export default function BottomNav() {
     window.open('https://www.linkedin.com/in/frankie-rodriguez-5b4041212/')
   };
   const handleClick3 = () => {
-    window.open('mailto:frankie@getorda.com')
+    window.open('https://www.linkedin.com/in/frankie-rodriguez-5b4041212/')
+  }
+
+  const handleClick4 = () => {
+    window.open('https://www.instagram.com/getorda/')
   }
 
   return (
