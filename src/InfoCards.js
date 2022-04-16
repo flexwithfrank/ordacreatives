@@ -5,6 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 
+
 export default function InfoCards({ med, txt1, txt2, btn}) {
   return (
     <Card sx={{ borderRadius: 4, maxWidth: 400}}>

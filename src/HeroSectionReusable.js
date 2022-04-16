@@ -10,6 +10,7 @@ import Typography from '@mui/material/Typography';
 
 
 
+
 export default function HeroSectionReuseable({ header, des }) {
     return(
 

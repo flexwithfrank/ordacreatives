@@ -3,6 +3,7 @@ import { AppBar, Toolbar, Typography, Button } from "@mui/material";
 import { makeStyles } from '@mui/styles';
 import { Link as RouterLink } from "react-router-dom";
 import ReactDOM from "react-dom";
+import 'react-responsive-modal/styles.css';
 
 
 export default function NavBar() {

@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './App.css';
 import './styles/output.css';
+import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 import Box from "@mui/material/Box";
 import Chip from '@mui/material/Chip';

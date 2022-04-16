@@ -7,6 +7,7 @@ import ApolloBurger from './ApolloBurger';
 import BlendedAppScreens from './BlendedAppScreens';
 import HeaderTitlesIcons from './HeaderTitlesIcons';
 import CheckIcon from '@mui/icons-material/Check';
+import 'react-responsive-modal/styles.css';
 
 export default function GridTwo() {
 

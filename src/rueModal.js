@@ -13,6 +13,7 @@ import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Stack from '@mui/material/Stack';
+import 'react-responsive-modal/styles.css';
 
 const headerStyles = {
     fontSize: "24px",

@@ -12,6 +12,7 @@ import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import CampaignIcon from '@mui/icons-material/Campaign';
 import Stack from '@mui/material/Stack';
+import 'react-responsive-modal/styles.css';
 
 const chipFontsBlack = {
     fontFamily: 'Josefin Sans',

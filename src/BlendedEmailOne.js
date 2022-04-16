@@ -12,6 +12,7 @@ import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import Stack from '@mui/material/Stack';
 import AvatarsTemplate from './AvatarsTemplate';
+import 'react-responsive-modal/styles.css';
 
 const headerStyles = {
     fontSize: "24px",

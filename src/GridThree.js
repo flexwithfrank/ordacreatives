@@ -6,6 +6,7 @@ import OrdaLanding from './OrdaLanding';
 import Lazy from './Lazy';
 import HeaderTitlesIcons from './HeaderTitlesIcons';
 import CheckIcon from '@mui/icons-material/Check';
+import 'react-responsive-modal/styles.css';
 
 export default function GridThree() {
 

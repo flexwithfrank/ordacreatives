@@ -12,6 +12,7 @@ import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import WebAssetIcon from '@mui/icons-material/WebAsset';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import Stack from '@mui/material/Stack';
+import 'react-responsive-modal/styles.css';
 
 const headerStyles = {
     fontSize: "24px",
