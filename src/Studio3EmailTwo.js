@@ -11,6 +11,7 @@ import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import { Stack } from '@mui/material';
+import 'react-responsive-modal/styles.css';
 
 const headerStyles = {
     fontSize: "24px",
