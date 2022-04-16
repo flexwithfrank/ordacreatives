@@ -5,6 +5,7 @@ import './button.css';
 import Stack from '@mui/material/Stack';
 import ButtonOne from "./ButtonOne";
 import Box from "@mui/material/Box";
+import Typography from '@mui/material/Typography';
 
 
 
@@ -14,7 +15,13 @@ export default function HeroSectionReuseable({ header, des }) {
 
          <div>
         <Stack sx={{ alignItems: 'center' }} direction="column">
-            <Box sx={{ maxWidth: 1000, textAlign: 'center' }} ><h1>{header}</h1></Box>
+
+            <Typography variant="h1" component="div">
+                <Box sx={{ fontSize: 88, maxWidth: 1000, textAlign: 'center' }} >
+                {header}
+            </Box>
+            </Typography>
+            
             <Box sx={{ maxWidth: 600, 
             textAlign: 'center', 
             alignItems: 'center' }}>

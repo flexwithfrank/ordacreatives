@@ -6,17 +6,14 @@ import './button.css';
 import AuthorAvatars from "./Avatars";
 import Box from "@mui/material/Box";
 import GridTwo from "./GridTwo";
-import OrdaLanding from "./OrdaLanding";
 import GridThree from "./GridThree";
-import Icon from '@mui/material/Icon';
 import Stack from '@mui/material/Stack';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import PartnerLogos from './PartnerLogos';
-import HeaderTitlesIcons from "./HeaderTitlesIcons";
 import HeroSectionReuseable from "./HeroSectionReusable";
 import HeroSectionReuseableV2 from "./HeroSectionReusableV2";
 import InfoCards from "./InfoCards";
 import NavBar from "./NavBar";
+import CustomAppBar from './CustomAppBar'
 
 const message = {
     headerOne: <h1>Enhance your customer experience with Orda Creatives©</h1>,
@@ -51,9 +48,10 @@ const cardThree = {
 
 export default function App() {
   return (
-    <Box className="App-header">
-      <NavBar />
 
+    <div>
+        <CustomAppBar />
+      <Box className="App-header">
       {/* section one hero */}
 
       <Box sx={{ pt: 15 }}>
@@ -101,6 +99,9 @@ export default function App() {
         </Box>
         
     </Box>
+
+    </div>
+    
     
 
   );
