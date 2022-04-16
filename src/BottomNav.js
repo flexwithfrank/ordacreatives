@@ -5,17 +5,21 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
 import GestureIcon from '@mui/icons-material/Gesture';
+import { styled } from '@mui/material/styles';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
-export default function CustomAppBar() {
+
+export default function BottomNav() {
 
   const handleClick = () => {
     window.open('https://calendly.com/d/pgcc-rgmr/introduction-call-orda-mobile-app-marketing-service?month=2022-04')
   }
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar sx={{ zIndex: 1, backgroundColor: "#101827" }} position="fixed">
+      <AppBar className='footer' sx={{ backgroundColor: "#101827" }} position="static">
         <Toolbar>
           <IconButton
             size="large"
@@ -32,14 +36,34 @@ export default function CustomAppBar() {
 
           <IconButton
             size="large"
-            edge="start"
+            edge="end"
             color="inherit"
             aria-label="menu"
             sx={{ mr: 0 }}
           >
-            <GestureIcon />
+            <InstagramIcon />
           </IconButton>
-          
+
+          <IconButton
+            size="large"
+            edge="end"
+            color="inherit"
+            aria-label="menu"
+            sx={{ mr: 0 }}
+          >
+            <EmailOutlinedIcon />
+          </IconButton>
+
+          <IconButton
+            size="large"
+            edge="end"
+            color="inherit"
+            aria-label="menu"
+            sx={{ mr: 0 }}
+          >
+            <LinkedInIcon />
+          </IconButton>
+
           <Button onClick={handleClick} color="inherit"><span className='visage'>Sign Up Now</span></Button>
         </Toolbar>
       </AppBar>
