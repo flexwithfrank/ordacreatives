@@ -12,7 +12,6 @@ import PartnerLogos from './PartnerLogos';
 import HeroSectionReuseable from "./HeroSectionReusable";
 import HeroSectionReuseableV2 from "./HeroSectionReusableV2";
 import InfoCards from "./InfoCards";
-import NavBar from "./NavBar";
 import CustomAppBar from './CustomAppBar'
 
 const message = {
@@ -26,21 +25,21 @@ const messageTwo = {
 }
 
 const cardOne = {
-  media: "/images/creator-2.png",
+  media: "/images/infoCard-app.png",
   text1: <span>App launch marketing</span>,
-  text2: <span>Our results driven approach will get usage</span>,
+  text2: <span>From live app to customer downloads. We'll handle it.</span>,
   button: "Learn More"
 }
 const cardTwo = {
-  media: "/images/creator-3.png",
-  text1: <span>Social media marketing</span>,
-  text2: <span>We'll take charge of your app growth</span>,
+  media: "/images/infoCard-web.png",
+  text1: <span>Email + SMS marketing</span>,
+  text2: <span>We'll supercharge your marketing for max downloads</span>,
   button: "Learn More"
 }
 const cardThree = {
-  media: "/images/creator-4.png",
-  text1: <span>Email + SMS marketing</span>,
-  text2: <span>Your secret weapon is in your customers pocket. We'll reach them</span>,
+  media: "/images/infoCard-signage.png",
+  text1: <span>Physical Signage</span>,
+  text2: <span>Customized sigange for every use case.</span>,
   button: "Learn More"
 }
 
