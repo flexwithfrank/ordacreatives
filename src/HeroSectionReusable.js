@@ -15,7 +15,7 @@ export default function HeroSectionReuseable({ header, des }) {
     return(
 
          <div>
-        <Stack sx={{ alignItems: 'center' }} direction="column">
+        <Stack sx={{ p: 2, alignItems: 'center' }} direction="column">
 
             <Typography variant="h1" component="div">
                 <Box sx={{ p: 2 ,fontSize: 54, 
