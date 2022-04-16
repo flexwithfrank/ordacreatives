@@ -19,12 +19,13 @@ export default function HeroSectionReuseableV2({ header, des, img }) {
             {/* left column */}
 
             <Stack direction="column">
-                <Box sx={{ fontSize: 48 }}>
+                <Box sx={{ fontSize: 38 }}>
                     <h1>{header}</h1>
                 </Box>
                 <Box sx={{ maxWidth: 600, 
                 textAlign: 'left', 
-                alignItems: 'center' }}>
+                alignItems: 'center',
+                pb: 3 }}>
                 <p style={{fontSize: "24px"}}>{des}</p>
                 </Box>
                 <ButtonV2 txt="Get Started with Orda" icn={<CelebrationOutlinedIcon />} /> 

@@ -90,7 +90,7 @@ export default function App() {
           <HeroSectionReuseableV2 
         header={messageTwo.headerOne} 
         des={messageTwo.description}
-        img={"/images/creator-2.png"} />
+        img={"/images/coffee-1.png"} />
         </Box>
 
         <GridTwo />
