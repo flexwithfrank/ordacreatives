@@ -39,7 +39,7 @@ export default function NavBar() {
     };
     const useStyles = makeStyles(() => ({
         header: {
-            backgroundColor: "#101827",
+            backgroundColor: "#400CCC",
             paddingRight: "79px",
             paddingLeft: "50px",
         },
