@@ -19,7 +19,9 @@ export default function HeroSectionReuseableV2({ header, des, img }) {
             {/* left column */}
 
             <Stack direction="column">
-                <Box><h1>{header}</h1></Box>
+                <Box sx={{ fontSize: 48 }}>
+                    <h1>{header}</h1>
+                </Box>
                 <Box sx={{ maxWidth: 600, 
                 textAlign: 'left', 
                 alignItems: 'center' }}>
