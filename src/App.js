@@ -96,9 +96,6 @@ export default function App() {
 
         <GridTwo />
         <GridThree />
-        <Box>
-        </Box>
-        
     </Box>
     <BottomNav />
     </div>
