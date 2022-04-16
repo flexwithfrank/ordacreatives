@@ -14,6 +14,7 @@ import HeroSectionReuseableV2 from "./HeroSectionReusableV2";
 import InfoCards from "./InfoCards";
 import CustomAppBar from './CustomAppBar';
 import BottomNav from "./BottomNav";
+import HeroSectionReuseableV3 from "./HeroSectionReusableV3";
 
 
 const message = {
@@ -25,6 +26,11 @@ const messageTwo = {
     headerOne: <h1>Drive your growth with Orda Creatives© </h1>,
     description: <p>Let our team take care of your app launch marketing so you can focus on what matters most.</p>
 }
+const messageThree = {
+    headerOne: <h1>Launch with Orda Creatives©</h1>,
+    description: <p>Results driven marketing for your app</p>
+}
+
 
 const cardOne = {
   media: "/images/infoCard-app.png",
@@ -103,6 +109,12 @@ export default function App() {
 
         <GridTwo />
         <GridThree />
+        <HeroSectionReuseableV3
+        header={messageThree.headerOne} 
+        des={messageThree.description}
+        img={"/images/qsr-device.png"}
+         />
+        
     </Box>
     <BottomNav />
     </div>
