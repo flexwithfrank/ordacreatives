@@ -1,12 +1,14 @@
 import * as React from 'react';
 import './App.css';
 import Box from "@mui/material/Box";
-import Stack from '@mui/material/Stack';
+import 'react-responsive-modal/styles.css';
 import OrdaLanding from './OrdaLanding';
 import Lazy from './Lazy';
 import HeaderTitlesIcons from './HeaderTitlesIcons';
 import CheckIcon from '@mui/icons-material/Check';
-import 'react-responsive-modal/styles.css';
+import BlendedWebOrdering from './BlendedWebOrdering';
+
+
 
 export default function GridThree() {
 
@@ -24,6 +26,7 @@ export default function GridThree() {
               text={"Website design and digital media"} /></Box>
           <OrdaLanding />
           <Lazy />
+          <BlendedWebOrdering />
 
             <div></div>
             <div></div>
