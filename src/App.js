@@ -109,11 +109,14 @@ export default function App() {
 
         <GridTwo />
         <GridThree />
-        <HeroSectionReuseableV3
+        <Box sx={{ p: 0, mb: 5, borderRadius: 10 }} id="gradient-2">
+          <HeroSectionReuseableV3
         header={messageThree.headerOne} 
         des={messageThree.description}
         img={"/images/qsr-device.png"}
          />
+         </Box>
+        
         
     </Box>
     <BottomNav />
