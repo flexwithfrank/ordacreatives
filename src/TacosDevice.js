@@ -24,11 +24,10 @@ const designerOne = {
 }
 
 const apolloText = {
-    text: <p>Apollo Burger is 12 location franchise and is rapidly growing.
-        They entrusted us with their mobile app development and design. 
-        We kept everything align with branding and messaging.
+    text: <p>Tacos 1986 trusted us with thier entire marketing campaign 
+        which resulted in more orders and more customer engagement.
     </p>,
-    header: <h1>Apollo Burger</h1>
+    header: <h1>Tacos 1986</h1>
 }
 
 export default function TacosDevice() {
@@ -66,7 +65,7 @@ export default function TacosDevice() {
                 <Stack direction="row" spacing={1} sx={{mt: 1}}>
                 <Chip style={chipFontsBlack} 
                 icon={<TrendingUpIcon style={{ color: 'A8DF65'}} />} 
-                label="12 locations and growing" 
+                label="5 locations and growing" 
                 variant="outlined" />
 
                 <Chip style={chipFontsBlack} 
@@ -84,31 +83,7 @@ export default function TacosDevice() {
                 <div className='rueContainerModal'>
 
                 <img className='item' 
-                src={"/images/Artboard 4.png"} 
-                alt="lyf-two" />
-
-                <img className='item' 
-                src={"/images/Artboard 6.png"} 
-                alt="lyf-two" />
-
-                <img className='item' 
-                src={"/images/Artboard 7.png"} 
-                alt="lyf-two" />
-
-                <img className='item' 
-                src={"/images/Artboard 8.png"} 
-                alt="lyf-two" />
-
-                <img className='item' 
-                src={"/images/Artboard 10.png"} 
-                alt="lyf-two" />
-
-                <img className='item' 
-                src={"/images/Artboard 10.png"} 
-                alt="lyf-two" />
-
-                <img className='item' 
-                src={"/images/Artboard 11.png"} 
+                src={"/images/tacos-phone.png"} 
                 alt="lyf-two" />
 
                 </div>
