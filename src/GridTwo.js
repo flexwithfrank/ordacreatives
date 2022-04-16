@@ -1,11 +1,13 @@
 import * as React from 'react';
 import './App.css';
 import Box from "@mui/material/Box";
+import 'react-responsive-modal/styles.css';
 import ApolloBurger from './ApolloBurger';
 import BlendedAppScreens from './BlendedAppScreens';
 import HeaderTitlesIcons from './HeaderTitlesIcons';
 import CheckIcon from '@mui/icons-material/Check';
-import 'react-responsive-modal/styles.css';
+import TacosDevice from './TacosDevice';
+
 
 export default function GridTwo() {
 
@@ -20,6 +22,7 @@ export default function GridTwo() {
         text={"Mobile app design and brand identity"} /></Box>
         <ApolloBurger />
         <BlendedAppScreens />
+        <TacosDevice />
         
     </Box>
     </div>

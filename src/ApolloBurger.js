@@ -83,10 +83,10 @@ export default function ApolloBurger() {
             alt='webpage-one' 
             onClick={() => setOpen20(true)} />
 
-            <Chip style={chipFontsBlack} 
+            {/* <Chip style={chipFontsBlack} 
              icon={<PhoneIphoneOutlinedIcon />} 
              label="Mobile App design" 
-             sx={{backgroundColor: 'white', mt: '1rem'}} />
+             sx={{backgroundColor: 'white', mt: '1rem'}} /> */}
 
                 <Modal open={open20} onClose={() => setOpen20(false)}>
             <span>{apolloText.header}</span>
