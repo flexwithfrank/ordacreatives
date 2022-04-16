@@ -25,7 +25,7 @@ export default function HeroSectionReuseableV2({ header, des, img }) {
                 <Box sx={{ maxWidth: 600, 
                 textAlign: 'left', 
                 alignItems: 'center',
-                pb: 3 }}>
+                pb: 4 }}>
                 <p style={{fontSize: "24px"}}>{des}</p>
                 </Box>
                 <ButtonV2 txt="Get Started with Orda" icn={<CelebrationOutlinedIcon />} /> 
