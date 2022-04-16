@@ -9,9 +9,9 @@ export default function NavBar() {
 
     const displayDesktop = () => {
         return (
-            <Toolbar>
+            <Toolbar className={toolbar}>
                 {ordaCreatives}
-                {getMenuButtons()}
+               <div>{getMenuButtons()}</div> 
             </Toolbar>
         );
     };
@@ -30,6 +30,7 @@ export default function NavBar() {
                     color: 'inherit',
                     to: href,
                     component: RouterLink,
+                    className: menuButton
                 }}>
                     {label}
                 </Button>
@@ -39,10 +40,19 @@ export default function NavBar() {
     const useStyles = makeStyles(() => ({
         header: {
             backgroundColor: "#101827",
+            paddingRight: "79px",
+            paddingLeft: "50px",
+        },
+        menuButton: {
+            marginLeft: '38px',
+        },
+        toolbar: {
+            display: "flex",
+            justifyContent: "space-between",
         },
     }));
 
-    const { header } = useStyles();
+    const { header, menuButton, toolbar } = useStyles();
 
     const navData = [
         {
@@ -57,7 +67,7 @@ export default function NavBar() {
 
     return(
         <header>
-            <AppBar className={header}>{displayDesktop()}</AppBar>
+            <AppBar position="absolute" className={header}>{displayDesktop()}</AppBar>
         </header>
     );
 }
