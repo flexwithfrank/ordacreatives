@@ -1,8 +1,6 @@
 import * as React from 'react';
 import './App.css';
 import Box from "@mui/material/Box";
-import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
-import Stack from '@mui/material/Stack';
 import ApolloBurger from './ApolloBurger';
 import BlendedAppScreens from './BlendedAppScreens';
 import HeaderTitlesIcons from './HeaderTitlesIcons';

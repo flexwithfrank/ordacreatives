@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import Grid from "./grid";
-import 'react-responsive-modal/styles.css';
+import "react-responsive-modal/styles.css";
 import './button.css';
 import AuthorAvatars from "./Avatars";
 import Box from "@mui/material/Box";
