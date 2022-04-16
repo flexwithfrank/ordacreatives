@@ -45,6 +45,10 @@ const cardThree = {
   button: "Get Started — it's easy"
 }
 
+const btnActionOne = () => {
+  window.open('https://calendly.com/d/pgcc-rgmr/introduction-call-orda-mobile-app-marketing-service?month=2022-04')
+}
+
 
 
 export default function App() {
@@ -71,17 +75,20 @@ export default function App() {
       med={cardOne.media}
       txt1={cardOne.text1}
       txt2={cardOne.text2}
-      btn={cardOne.button} />
+      btn={cardOne.button}
+      act={btnActionOne} />
       <InfoCards 
       med={cardTwo.media}
       txt1={cardTwo.text1}
       txt2={cardTwo.text2}
-      btn={cardTwo.button} />
+      btn={cardTwo.button}
+      act={btnActionOne} />
       <InfoCards 
       med={cardThree.media}
       txt1={cardThree.text1}
       txt2={cardThree.text2}
-      btn={cardThree.button} />
+      btn={cardThree.button}
+      act={btnActionOne} />
       </Stack>
 
         <Grid/>

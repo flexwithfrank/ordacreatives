@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 
 
-export default function InfoCards({ med, txt1, txt2, btn}) {
+export default function InfoCards({ med, txt1, txt2, btn, act}) {
   return (
     <Card sx={{ borderRadius: 4, maxWidth: 400}}>
       <CardActionArea>
@@ -15,6 +15,7 @@ export default function InfoCards({ med, txt1, txt2, btn}) {
           height="5000"
           image={med}
           alt="image"
+          onClick={act}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -26,7 +27,7 @@ export default function InfoCards({ med, txt1, txt2, btn}) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button onClick={act} size="small" color="primary">
         <span className='josefin'>{btn}</span>
         </Button>
       </CardActions>
