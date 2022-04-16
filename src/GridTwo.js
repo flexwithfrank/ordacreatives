@@ -17,7 +17,7 @@ export default function GridTwo() {
         <Box sx={{ mt: 15 }} className='container'>
           <Box><HeaderTitlesIcons 
         icon={<CheckIcon 
-        sx={{ width: 50, height: 50 }} />} 
+        sx={{ width: 50, height: 50, fontSize: 38 }} />} 
         text={"Mobile app design and brand identity"} /></Box>
         <ApolloBurger />
         <BlendedAppScreens />

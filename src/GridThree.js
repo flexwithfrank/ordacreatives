@@ -19,7 +19,7 @@ export default function GridThree() {
           <Box className='container'>
           <Box><HeaderTitlesIcons 
               icon={<CheckIcon 
-              sx={{ width: 50, height: 50 }} />} 
+              sx={{ width: 50, height: 50, fontSize: 38 }} />} 
               text={"Website design and digital media"} /></Box>
           <OrdaLanding />
           <Lazy />
