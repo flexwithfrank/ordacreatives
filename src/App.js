@@ -12,7 +12,9 @@ import PartnerLogos from './PartnerLogos';
 import HeroSectionReuseable from "./HeroSectionReusable";
 import HeroSectionReuseableV2 from "./HeroSectionReusableV2";
 import InfoCards from "./InfoCards";
-import CustomAppBar from './CustomAppBar'
+import CustomAppBar from './CustomAppBar';
+import BottomNav from "./BottomNav";
+
 
 const message = {
     headerOne: <h1>Enhance your customer experience with Orda Creatives©</h1>,
@@ -98,7 +100,7 @@ export default function App() {
         </Box>
         
     </Box>
-
+    <BottomNav />
     </div>
     
     
