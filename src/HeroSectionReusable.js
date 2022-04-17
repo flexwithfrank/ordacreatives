@@ -19,10 +19,11 @@ export default function HeroSectionReuseable({ header, des }) {
 
             <Typography sx={{ typography: { sm: 'body1', xs: 'body2' } }}  variant="h1" component="div">
                 <Box sx={{
+                    pr: 2, pl: 2,
                     fontSize: 48, 
                     maxWidth: 800, 
                     textAlign: 'center' }} >
-                    {header}
+                        {header}
                  </Box>
             </Typography>
             

@@ -65,7 +65,7 @@ export default function App() {
       <Box className="App-header">
       {/* section one hero */}
 
-      <Box sx={{ pr: 2, pl: 2, pt: 15 }}>
+      <Box sx={{ pt: 15 }}>
       <HeroSectionReuseable 
       header={message.headerOne} 
       des={message.description} />
