@@ -13,6 +13,7 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 import CampaignIcon from '@mui/icons-material/Campaign';
 import Stack from '@mui/material/Stack';
 import 'react-responsive-modal/styles.css';
+import Pills from './Pills';
 
 const chipFontsBlack = {
     fontFamily: 'Josefin Sans',
@@ -72,10 +73,10 @@ export default function Studio3() {
             alt='webpage-one' 
             onClick={() => setOpen10(true)} />
 
-            <Chip style={chipFontsBlack} 
-             icon={<FitnessCenterIcon />} 
-             label="Boutique Fitness" 
-             sx={{backgroundColor: 'white', mt: '1rem'}} />
+            <Stack sx={{ ml: 1 }} direction='row' spacing={1}>
+                <Pills txt={"Email Marketing"} bg={'light'} clr={'dark'} />
+                <Pills txt={"Boutique Fitness"} bg={'light'} clr={'dark'} />
+            </Stack>
 
                 <Modal open={open10} onClose={() => setOpen10(false)}>
             <span>{studioText.header}</span>

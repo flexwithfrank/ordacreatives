@@ -13,53 +13,20 @@ import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import Stack from '@mui/material/Stack';
 import 'react-responsive-modal/styles.css';
+import Pills from './Pills';
 
-const headerStyles = {
-    fontSize: "24px",
-    textAlign: 'left'
-}
-
-const chipFontsWhite = {
-        fontFamily: 'Josefin Sans',
-        color: '#ffffff',
-    }
 const chipFontsBlack = {
     fontFamily: 'Josefin Sans',
     color: '#000000'
 }
 
-const designerOne = {
-    src: "/images/oink.png",
-    label: "Design by Frankie Rodriguez",
-}
 
-const designerTwo = {
-    src: "/images/avatar-1.png",
-    label: "Design by Cherry Tomlin"
-}
 
 const designerThree = {
     src: "/images/avatar-3.png",
     label: "Design by Greta Quinn"
 }
-const designerFour = {
-    src: "/images/avatar-4 (2).png",
-    label: "Design by Morris Cantana"
-}
 
-const designerFive = {
-    src: "/images/avatar-2.png",
-    label: "Design by Chris Encinado"
-}
-
-const designerSix = {
-    src: "/images/avatar-4 (2).png",
-    label: "Design by Lilly Torrino"
-}
-const designerSeven = {
-    src: "/images/avatar-5.png",
-    label: "Design by Rodrigo Sanchez"
-}
 
 
 
@@ -84,10 +51,10 @@ export default function LyfModal() {
             alt='webpage-one' 
             onClick={() => setOpen6(true)} />
 
-            <Chip style={chipFontsBlack} 
-             icon={<ShoppingBagOutlinedIcon />} 
-             label="Retail &amp; Ecommerce" 
-             sx={{backgroundColor: 'white', mt: '1rem'}} />
+            <Stack sx={{ ml: 1 }} direction='row' spacing={1}>
+                <Pills txt={"Email Marketing"} bg={'light'} clr={'dark'} />
+                <Pills txt={"Retail & Ecommerce"} bg={'light'} clr={'dark'} />
+            </Stack>
 
                 <Modal open={open6} onClose={() => setOpen6(false)}>
             <span>{lyfText.header}</span>

@@ -12,6 +12,7 @@ import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import Stack from '@mui/material/Stack';
 import 'react-responsive-modal/styles.css';
+import Pills from './Pills';
 
 
 const chipFontsWhite = {
@@ -78,10 +79,10 @@ export default function BlendedEmailThree() {
             alt='webpage-one' 
             onClick={() => setOpen22(true)} />
 
-            <Chip style={chipFontsBlack} 
-             icon={<RestaurantIcon />} 
-             label="Smoothie &amp; Juice Bar" 
-             sx={{backgroundColor: 'white', mt: '1rem'}} />
+            <Stack sx={{ ml: 1 }} direction='row' spacing={1}>
+                <Pills txt={"Email Marketing"} bg={'light'} clr={'dark'} />
+                <Pills txt={"Food & Beverage"} bg={'light'} clr={'dark'} />
+            </Stack>
 
                 <Modal open={open22} onClose={() => setOpen22(false)}>
             <span>{blendedText.header}</span>

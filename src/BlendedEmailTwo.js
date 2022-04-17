@@ -12,6 +12,7 @@ import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import Stack from '@mui/material/Stack';
 import 'react-responsive-modal/styles.css';
+import Pills from './Pills';
 
 const headerStyles = {
     fontSize: "24px",
@@ -81,10 +82,10 @@ export default function BlendedEmailTwo() {
             alt="email-4" 
             onClick={() => setOpen4(true)} />
 
-            <Chip style={chipFontsBlack} 
-             icon={<RestaurantIcon />} 
-             label="Food &amp; Beverage" 
-             sx={{backgroundColor: 'white', mt: '1rem'}} />
+            <Stack sx={{ ml: 1 }} direction='row' spacing={1}>
+                <Pills txt={"Email Marketing"} bg={'light'} clr={'dark'} />
+                <Pills txt={"Food & Beverage"} bg={'light'} clr={'dark'} />
+            </Stack>
 
         </Box>
             

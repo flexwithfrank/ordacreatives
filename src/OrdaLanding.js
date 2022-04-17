@@ -12,6 +12,7 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 import RocketLaunchOutlinedIcon from '@mui/icons-material/RocketLaunchOutlined';
 import Stack from '@mui/material/Stack';
 import 'react-responsive-modal/styles.css';
+import Pills from './Pills';
 
 const headerStyles = {
     fontSize: "24px",
@@ -74,10 +75,10 @@ export default function OrdaLanding() {
             alt="email-3" 
             onClick={() => setOpen3(true)} />
 
-            <Chip style={chipFontsBlack} 
-             icon={<LaptopMacIcon />} 
-             label="Digital Marketing SaaS" 
-             sx={{backgroundColor: 'white', mt: '1rem'}} />
+            <Stack sx={{ ml: 1 }} direction='row' spacing={1}>
+                <Pills txt={"Web Design"} bg={'light'} clr={'dark'} />
+                <Pills txt={"Digital Marketing SaaS"} bg={'light'} clr={'dark'} />
+            </Stack>
         </Box>
 
         {/* orda modal */}

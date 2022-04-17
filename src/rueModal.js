@@ -14,6 +14,7 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Stack from '@mui/material/Stack';
 import 'react-responsive-modal/styles.css';
+import Pills from './Pills';
 
 const headerStyles = {
     fontSize: "24px",
@@ -92,10 +93,10 @@ export default function RueModal() {
         alt='webpage-one' 
         onClick={() => setOpen7(true)} />
 
-        <Chip style={chipFontsBlack} 
-             icon={<RestaurantIcon />} 
-             label="Food &amp; Beverage — Full marketing suite" 
-             sx={{backgroundColor: 'white', mt: '1rem'}} />
+        <Stack sx={{ ml: 1 }} direction='row' spacing={1}>
+                <Pills txt={"Social Media"} bg={'light'} clr={'dark'} />
+                <Pills txt={"Full Marketing Suite"} bg={'light'} clr={'dark'} />
+            </Stack>
       <Box>
 
           {/* rue IG post container */}

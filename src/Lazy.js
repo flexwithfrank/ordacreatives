@@ -13,6 +13,7 @@ import WebAssetIcon from '@mui/icons-material/WebAsset';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import Stack from '@mui/material/Stack';
 import 'react-responsive-modal/styles.css';
+import Pills from './Pills';
 
 const headerStyles = {
     fontSize: "24px",
@@ -81,15 +82,10 @@ export default function Lazy() {
             src={"/images/lazy-web-4-9-01.png"} alt='webpage-one' 
             onClick={() => setOpen5(true)} />
 
-            <Chip style={chipFontsBlack} 
-             icon={<RestaurantIcon />} 
-             label="Food &amp; Beverage — Email" 
-             sx={{backgroundColor: 'white', mt: '1rem'}} />
-
-             <Chip style={chipFontsBlack} 
-             icon={<WebAssetIcon />} 
-             label="Web ordering design" 
-             sx={{backgroundColor: 'white', mt: '1rem'}} />
+            <Stack sx={{ ml: 1 }} direction='row' spacing={1}>
+                <Pills txt={"Food & Beverage"} bg={'light'} clr={'dark'} />
+                <Pills txt={"Web Design"} bg={'light'} clr={'dark'} />
+            </Stack>
         </Box>
 
         {/* lazy sundaes modal */}

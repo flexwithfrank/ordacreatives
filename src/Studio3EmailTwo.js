@@ -12,6 +12,7 @@ import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import { Stack } from '@mui/material';
 import 'react-responsive-modal/styles.css';
+import Pills from './Pills';
 
 const headerStyles = {
     fontSize: "24px",
@@ -81,10 +82,10 @@ export default function Studio3EmailTwo() {
              alt="email-1" 
              onClick={() => setOpen(true)} />
 
-             <Chip style={chipFontsBlack} 
-             icon={<FitnessCenterIcon />} 
-             label="Boutique Fitness — Email Marketing" 
-             sx={{backgroundColor: 'white', mt: '1rem'}} />
+            <Stack sx={{ ml: 1 }} direction='row' spacing={1}>
+                <Pills txt={"Winback Email Marketing"} bg={'light'} clr={'dark'} />
+                <Pills txt={"Boutique Fitness"} bg={'light'} clr={'dark'} />
+            </Stack>
         </Box>
 
                 <Modal open={open} onClose={() => setOpen(false)}>
