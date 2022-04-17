@@ -14,7 +14,7 @@ export default function HeroSectionReuseableV3({ header, des, img }) {
     return(
 
          <div>
-        <Stack sx={{ p: 2, alignItems: 'center', maxWidth: 1150 }} direction={{ xs: 'column', sm: 'row' }} spacing={5}>
+        <Stack sx={{ pr: 2, pl: 2, pb: 4, pt: 2, alignItems: 'center', maxWidth: 1150 }} direction={{ xs: 'column', sm: 'row' }} spacing={5}>
             {/* left column */}
 
             <Box sx={{ maxWidth: 450 }} direction="column">
