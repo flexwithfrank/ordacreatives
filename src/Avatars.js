@@ -2,6 +2,7 @@ import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import { AvatarGroup } from '@mui/material';
+import Box from "@mui/material/Box";
 
 const logoSize = {
     width: '100px',
@@ -18,7 +19,7 @@ export default function AuthorAvatars() {
             <Avatar alt="Lily Sandrick" src={"/images/avatar-3.png"} />
             <Avatar alt="Rene Ceasar" src ={"images/avatar-4 (2).png"} />
         </AvatarGroup>
-             <p>Designed by the marketing creatives at</p>
+             <Box sx={{ alignItems: 'center' }} ><p>By the marketing creatives at</p></Box>
              <img style={logoSize} src={"images/orda-logo.png"} alt="company-logo" />
         </Stack>
     );
