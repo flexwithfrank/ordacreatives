@@ -17,14 +17,14 @@ export default function HeroSectionReuseable({ header, des }) {
          <div>
         <Stack sx={{ p: 2, alignItems: 'center' }} direction="column">
 
-            <Typography sx={{ pr: 2, pl: 2,
-                    maxWidth: 800, 
+            <Typography sx={{
+                    maxWidth: 1000, 
                     textAlign: 'center',
                     fontSize: {
                     lg: 48,
-                    md: 20,
-                    sm: 20,
-                    xs: 20
+                    md: 32,
+                    sm: 32,
+                    xs: 32
                     }}}   
                     variant="h1">
                         {header}
