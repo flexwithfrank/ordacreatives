@@ -15,6 +15,7 @@ import InfoCards from "./InfoCards";
 import CustomAppBar from './CustomAppBar';
 import BottomNav from "./BottomNav";
 import HeroSectionReuseableV3 from "./HeroSectionReusableV3";
+import LaunchSteps from "./LaunchSteps";
  
 
 const message = {
@@ -117,7 +118,7 @@ export default function App() {
          />
          </Box>
         
-        
+        <LaunchSteps />
     </Box>
     <BottomNav />
     </div>
