@@ -98,6 +98,8 @@ export default function App() {
       act={btnActionOne} />
       </Stack>
 
+        <LaunchSteps />
+
         <Grid/>
         <PartnerLogos />
 
@@ -117,7 +119,6 @@ export default function App() {
         img={"/images/qsr-device.png"}
          />
          </Box>
-        
         
     </Box>
     <BottomNav />
