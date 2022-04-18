@@ -18,12 +18,12 @@ import HeroSectionReuseableV3 from "./HeroSectionReusableV3";
  
 
 const message = {
-    headerOne: <h1>Grow your app with Orda Creatives©</h1>,
+    headerOne: <h1>Grow your app downloads and engagement</h1>,
     description: <p>Expertly crafted marketing assets created for growth, customer loyalty, and audience engagement.</p>
 }
 
 const messageTwo = {
-    headerOne: <h1>Drive your growth with Orda Creatives© </h1>,
+    headerOne: <h1>Drive your growth with Orda creative partners </h1>,
     description: <p>Let our team take care of your app launch marketing so you can focus on what matters most.</p>
 }
 const messageThree = {
