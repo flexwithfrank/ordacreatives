@@ -99,7 +99,6 @@ export default function App() {
       </Stack>
 
         <LaunchSteps />
-
         <Grid/>
         <PartnerLogos />
 
@@ -107,7 +106,7 @@ export default function App() {
           <HeroSectionReuseableV2 
         header={messageTwo.headerOne} 
         des={messageTwo.description}
-        img={"/images/coffee-1.png"} />
+        img={"/images/Download now!.png"} />
         </Box>
 
         <GridTwo />
