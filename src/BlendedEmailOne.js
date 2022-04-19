@@ -67,7 +67,11 @@ export default function BlendedEmailOne() {
 
         {/* blended modal one */}
 
-        <Modal className='item' open={open2} onClose={() => setOpen2(false)}>
+        <div>
+            
+        </div>
+
+        <Modal open={open2} onClose={() => setOpen2(false)}>
             <h2 style={headerStyles}>{blendedDescription.header}</h2>
             <span>{blendedDescription.text}</span>
 
@@ -108,10 +112,10 @@ export default function BlendedEmailOne() {
                 variant="outlined" />
 
             </Stack>
-
-            <img className='item' 
+                <img  
             src={"/images/blended-email-2.png"} 
             alt="blended-email-1" />
+
 
         </Modal>
 
