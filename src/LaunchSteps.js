@@ -27,7 +27,7 @@ export default function LaunchSteps() {
                     sm: 32,
                     xs: 32
                     }}}>
-                <Box className='visage'>HOW TO DRIVE GROWTH.</Box>      
+                <Box className='visage'>HOW WE DRIVE GROWTH.</Box>      
                 </Typography>
 
                 <Stack direction={{ sm: 'row', xs: 'column' }} spacing={{ sm: 25, xs: 10 }}>
