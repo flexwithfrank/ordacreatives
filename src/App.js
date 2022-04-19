@@ -16,6 +16,10 @@ import CustomAppBar from './CustomAppBar';
 import BottomNav from "./BottomNav";
 import HeroSectionReuseableV3 from "./HeroSectionReusableV3";
 import LaunchSteps from "./LaunchSteps";
+
+const iconSize = {
+  width: 50
+}
  
 
 const message = {

@@ -27,7 +27,7 @@ export default function LaunchSteps() {
                     sm: 32,
                     xs: 32
                     }}}>
-                <Box className='visage'>HOW WE DRIVE GROWTH.</Box>      
+                <Box className='visage'>HOW TO DRIVE GROWTH.</Box>      
                 </Typography>
 
                 <Stack direction={{ sm: 'row', xs: 'column' }} spacing={{ sm: 25, xs: 10 }}>
@@ -44,7 +44,7 @@ export default function LaunchSteps() {
                     sm: 18,
                     xs: 18
                     }}} >
-                    <Box sx={{ maxWidth: 275 }} className='visage'>
+                    <Box sx={{ maxWidth: 275 }} className='product'>
                         <Stack direction='row'>
                             <Box sx={{mr: 2, fontSize: 52 }}>1.</Box> 
                             Our team sends SMS &amp; email blast to drive app downloads
@@ -65,7 +65,7 @@ export default function LaunchSteps() {
                     sm: 18,
                     xs: 18
                     }}} >
-                    <Box sx={{ maxWidth: 300 }} className='visage'>
+                    <Box sx={{ maxWidth: 300 }} className='product'>
                         <Stack direction='row'>
                             <Box sx={{mr: 2, fontSize: 52 }}>2.</Box> 
                             Update Instagram profile link to rewards platform
@@ -86,7 +86,7 @@ export default function LaunchSteps() {
                     sm: 18,
                     xs: 18
                     }}} >
-                    <Box sx={{ maxWidth: 250 }} className='visage'>
+                    <Box sx={{ maxWidth: 250 }} className='product'>
                         <Stack direction='row'>
                             <Box sx={{mr: 2, fontSize: 52 }}>3.</Box> 
                             Post 3x on social media to drive app downloads
@@ -115,7 +115,7 @@ export default function LaunchSteps() {
                     sm: 18,
                     xs: 18
                     }}} >
-                    <Box sx={{ maxWidth: 250 }} className='visage'>
+                    <Box sx={{ maxWidth: 250 }} className='product'>
                         <Stack direction='row'>
                             <Box sx={{mr: 2, fontSize: 52 }}>4.</Box> 
                             Customize your domain to ordering page
@@ -136,7 +136,7 @@ export default function LaunchSteps() {
                     sm: 18,
                     xs: 18
                     }}} >
-                    <Box sx={{ maxWidth: 250 }} className='visage'>
+                    <Box sx={{ maxWidth: 250 }} className='product'>
                         <Stack direction='row'>
                             <Box sx={{mr: 2, fontSize: 52 }}>5.</Box> 
                             Order in-store posters with QR code designed by our team

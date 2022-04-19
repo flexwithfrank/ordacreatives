@@ -41,28 +41,28 @@
 
 @font-face {
   font-family: "product";
-  src: url("/fonts/Product Sans Bold.ttf") format("truetype");
-  src: url("/fonts/product_sans_bold-webfont.woff") format("woff");
-  src: url("/fonts/product_sans_bold-webfont.woff2") format("woff2");
+  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/Product Sans Bold.ttf") format("truetype");
+  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/product_sans_bold-webfont.woff") format("woff");
+  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/product_sans_bold-webfont.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "visage";
-  src: url("/fonts/Visage Bold.otf") format("opentype");
-  src: url("/fonts/Visage Bold.woff2") format("woff");
+  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/Visage Bold.otf") format("opentype");
+  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/Visage Bold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "cleon";
-  src: url("/fonts/Cleon.otf") format("opentype");
-  src: url("/fonts/cleon-webfont.woff") format("woff");
-  src: url("/fonts/cleon-webfont.woff2") format("woff2");
+  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/Cleon.otf") format("opentype");
+  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/cleon-webfont.woff") format("woff");
+  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/cleon-webfont.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "vaulto";
-  src: url("/fonts/Vaulto-ExtraBold.otf") format("opentype");
-  src: url("/fonts/Vaulto-ExtraBold.woff2") format("woff2");
+  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/Vaulto-ExtraBold.otf") format("opentype");
+  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/Vaulto-ExtraBold.woff2") format("woff2");
 }
 
 h1{
@@ -124,4 +124,8 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
 }
 .vaulto{
   font-family: 'vaulto';
+}
+
+.product{
+  font-family: "product"
 }
