@@ -7,6 +7,7 @@ import ButtonOne from "./ButtonOne";
 import Box from "@mui/material/Box";
 import ButtonV2 from "./ButtonV2";
 import CelebrationOutlinedIcon from '@mui/icons-material/CelebrationOutlined';
+import { Typography } from "@mui/material";
 
 
 
@@ -19,9 +20,17 @@ export default function HeroSectionReuseableV2({ header, des, img }) {
             {/* left column */}
 
             <Stack direction="column">
-                <Box sx={{ fontSize: 38 }}>
+                <Typography sx={{ fontSize: {
+                    lg: 57,
+                    md: 28,
+                    sm: 28,
+                    xs: 28
+                    }}}>
+                
                     <h1>{header}</h1>
-                </Box>
+                
+
+                </Typography>
                 <Box sx={{ maxWidth: 600, 
                 textAlign: 'left', 
                 alignItems: 'center',

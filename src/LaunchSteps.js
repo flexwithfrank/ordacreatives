@@ -7,6 +7,9 @@ import ScreenShareOutlinedIcon from '@mui/icons-material/ScreenShareOutlined';
 import DomainVerificationOutlinedIcon from '@mui/icons-material/DomainVerificationOutlined';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import QrCode2Icon from '@mui/icons-material/QrCode2';
+import PhonelinkIcon from '@mui/icons-material/Phonelink';
+import ImportantDevicesIcon from '@mui/icons-material/ImportantDevices';
+import QrCodeScannerIcon from '@mui/icons-material/QrCodeScanner';
 
 
 
@@ -19,7 +22,7 @@ export default function LaunchSteps() {
                     mb: 5, 
                     textAlign: 'center',
                     fontSize: {
-                    lg: 58,
+                    lg: 57,
                     md: 32,
                     sm: 32,
                     xs: 32
@@ -53,7 +56,7 @@ export default function LaunchSteps() {
              {/*  step 2 */}
             <Stack sx={{ alignItems: 'center' }} direction='column' spacing={5}>
                     <Box sx={{ maxWidth: 150 }}>
-                    <ScreenShareOutlinedIcon sx={{ width: 100, height: 100 }} />
+                    <ImportantDevicesIcon sx={{ width: 100, height: 100 }} />
                     </Box>
                 <Typography sx={{
                     fontSize: {

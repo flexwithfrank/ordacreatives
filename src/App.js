@@ -102,7 +102,7 @@ export default function App() {
         <Grid/>
         <PartnerLogos />
 
-        <Box sx={{ p: 10, borderRadius: 10 }} id="gradient-1">
+        <Box sx={{ p: { xs: 3, s: 3, md: 5, lg: 8 }, borderRadius: 10 }} id="gradient-1">
           <HeroSectionReuseableV2 
         header={messageTwo.headerOne} 
         des={messageTwo.description}

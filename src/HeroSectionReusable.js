@@ -27,7 +27,7 @@ export default function HeroSectionReuseable({ header, des }) {
                     xs: 32
                     }}}   
                     variant="h1">
-                        {header}
+                        <span>{header}</span>
             </Typography>
             
             <Box sx={{ p: 2, maxWidth: 600, 

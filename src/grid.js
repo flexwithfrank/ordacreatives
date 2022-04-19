@@ -26,7 +26,7 @@ export default function Grid () {
             className="container bg-color-1">
         <Box><HeaderTitlesIcons 
         icon={<CheckIcon 
-        sx={{ width: 50, height: 50, mr: 2, fontSize: 38 }} />} 
+        sx={{ width: 50, height: 50, mr: 2 }} />} 
         text={"Beatifully designed marketing assets"} /></Box>
         <BlendedEmailOne />
         <BlendedEmailTwo />
