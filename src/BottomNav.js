@@ -21,9 +21,8 @@ export default function BottomNav() {
     window.open('https://www.linkedin.com/in/frankie-rodriguez-5b4041212/')
   };
   const handleClick3 = () => {
-    window.open('https://www.linkedin.com/in/frankie-rodriguez-5b4041212/')
+    window.open('mailto:frankie@getorda.com')
   }
-
   const handleClick4 = () => {
     window.open('https://www.instagram.com/getorda/')
   }
@@ -46,7 +45,7 @@ export default function BottomNav() {
           </Typography>
 
           <IconButton
-            onClick={handleClick2}
+            onClick={handleClick4}
             size="large"
             edge="end"
             color="inherit"
@@ -68,6 +67,7 @@ export default function BottomNav() {
           </IconButton>
 
           <IconButton
+          onClick={handleClick2}
             size="large"
             edge="end"
             color="inherit"

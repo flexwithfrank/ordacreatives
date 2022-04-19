@@ -67,7 +67,7 @@ export default function BlendedEmailOne() {
 
         {/* blended modal one */}
 
-        <Modal open={open2} onClose={() => setOpen2(false)}>
+        <Modal className='item' open={open2} onClose={() => setOpen2(false)}>
             <h2 style={headerStyles}>{blendedDescription.header}</h2>
             <span>{blendedDescription.text}</span>
 

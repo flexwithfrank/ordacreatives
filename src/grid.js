@@ -21,7 +21,7 @@ export default function Grid () {
     return(
 
         <div>
-        <Box sx={{mt: 10, p: 7, 
+        <Box sx={{mt: 10, p: 6, 
             borderRadius: 5 }} 
             className="container bg-color-1">
         <Box><HeaderTitlesIcons 
