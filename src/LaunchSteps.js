@@ -144,8 +144,6 @@ export default function LaunchSteps() {
                     </Box>
                 </Typography>
             </Stack>
-
-
             </Stack>
             </Stack>
             
