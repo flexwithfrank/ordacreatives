@@ -11,9 +11,9 @@ import BlendedEmailOne from './BlendedEmailOne';
 import BlendedEmailTwo from './BlendedEmailTwo';
 import Studio3EmailTwo from './Studio3EmailTwo';
 import HeaderTitlesIcons from './HeaderTitlesIcons';
-import AddIcon from '@mui/icons-material/Add';
 import CheckIcon from '@mui/icons-material/Check';
 import 'react-responsive-modal/styles.css';
+import QrSticker from './QrSticker';
 
 
 export default function Grid () {
@@ -27,7 +27,7 @@ export default function Grid () {
         <Box><HeaderTitlesIcons 
         icon={<CheckIcon 
         sx={{ width: 50, height: 50, mr: 2, fontSize: 38 }} />} 
-        text={"Beatifully designed growth emails"} /></Box>
+        text={"Beatifully designed marketing assets"} /></Box>
         <BlendedEmailOne />
         <BlendedEmailTwo />
         <BlendedEmailThree />
@@ -36,6 +36,7 @@ export default function Grid () {
         <Studio3EmailTwo />
         <LyfModal/>
         <RueModal />
+        <QrSticker />
         </Box>
          </div>
 
