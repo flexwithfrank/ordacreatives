@@ -41,28 +41,28 @@
 
 @font-face {
   font-family: "product";
-  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/Product Sans Bold.ttf") format("truetype");
-  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/product_sans_bold-webfont.woff") format("woff");
-  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/product_sans_bold-webfont.woff2") format("woff2");
+  src: url("/public/fonts/Product Sans Bold.ttf") format("truetype");
+  src: url("/public/fonts/product_sans_bold-webfont.woff") format("woff");
+  src: url("/public/fonts/product_sans_bold-webfont.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "visage";
-  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/Visage Bold.otf") format("opentype");
-  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/Visage Bold.woff2") format("woff2");
+  src: url("/public/fonts/Visage Bold.otf") format("opentype");
+  src: url("/public/fonts/Visage Bold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "cleon";
-  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/Cleon.otf") format("opentype");
-  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/cleon-webfont.woff") format("woff");
-  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/cleon-webfont.woff2") format("woff2");
+  src: url("/public/fonts/Cleon.otf") format("opentype");
+  src: url("/public/fonts/cleon-webfont.woff") format("woff");
+  src: url("/public/fonts/cleon-webfont.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "vaulto";
-  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/Vaulto-ExtraBold.otf") format("opentype");
-  src: url("/Users/rodriguezmedia/Desktop/react-counter-app/public/fonts/Vaulto-ExtraBold.woff2") format("woff2");
+  src: url("/public/fonts/Vaulto-ExtraBold.otf") format("opentype");
+  src: url("/public/fonts/Vaulto-ExtraBold.woff2") format("woff2");
 }
 
 h1{
