@@ -9,7 +9,6 @@ import StoreIcon from '@mui/icons-material/Store';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import Stack from '@mui/material/Stack';
 
