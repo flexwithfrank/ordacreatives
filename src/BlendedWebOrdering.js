@@ -65,8 +65,8 @@ const designerSeven = {
 
 
 const blendedDescription = {
-    text: <p>"We took Blendeds web ordering to the full stack solution, 
-        resulting in an icrease in foor traffic and customer experience"</p>, 
+    text: <p>"We took Blendeds web ordering to a full stack solution, 
+        resulting in an icrease in foot traffic and customer experience"</p>, 
     header: <h1>Blended Online Ordering</h1> 
 }
 
