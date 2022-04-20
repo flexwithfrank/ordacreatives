@@ -110,7 +110,7 @@ export default function App() {
           <HeroSectionReuseableV2 
         header={messageTwo.headerOne} 
         des={messageTwo.description}
-        img={"/images/Download now!.png"} />
+        img={'/images/blended-download-image.png'} />
         </Box>
 
         <GridTwo />
